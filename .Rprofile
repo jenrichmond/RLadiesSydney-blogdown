@@ -1,4 +1,4 @@
-options(blogdown.author = "Mary Berry",
+options(blogdown.author = "Jen Richmond",
         blogdown.ext = ".Rmd",
         blogdown.subdir = "post",
         blogdown.yaml.empty = TRUE,
