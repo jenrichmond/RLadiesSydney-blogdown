@@ -1,0 +1,49 @@
+---
+title: "R-Ladies Sydney events"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+Check out some of the events we've hosted! You can find and sign up to new events on our [Meetup page](https://www.meetup.com/rladies-sydney/).
+
+
+## Machine Learning 101, Part 2, (17-Oct-2018)
+
+- Presenter: Sarah Romanes (@sarah_romanes)
+- Slides: https://sarahromanes.github.io/r-ladies-ML-2/#1
+- Github: https://github.com/sarahromanes/r-ladies-ML-2
+
+## Machine Learning 101, Part 1 (10-Oct-2018)
+
+- Presenter: Sarah Romanes (@sarah_romanes)
+- Slides: https://sarahromanes.github.io/r-ladies-ML-1/#1
+- Github: https://github.com/sarahromanes/r-ladies-ML-1
+
+## Shiny September: Making an interactive web app in R (19-Sep-2018)
+
+- Presenter: Emi Tanaka (@statsgen)
+- Slides: https://emitanaka.github.io/slides/20180919_RLadiesSydney/rladies-sydney-shiny.html#1
+- Github: https://github.com/emitanaka/workshop-rladies-shiny-september-2018
+
+## Tidyverse for beginners (22-Aug-2018)
+
+- Presenter: Danielle Navarro (@djnavarro)
+- Slides: https://slides.com/djnavarro/tidyverse-for-beginners
+- Github: https://github.com/rladiessydney/littlemisstidyverse
+
+## R-Curious workshop (21-Jun-2018) 
+
+- Presenter: Charles Gray (@cantabile)
+- Github: https://github.com/softloud/rcurious
+
+
+## R-Ladies Sydney launch event (20-Jun-2018)
+
+- Presenters: Lots of fabulous people!
+- Blog: https://rladiessydney.org/posts/lightning-talks/
+
+
+

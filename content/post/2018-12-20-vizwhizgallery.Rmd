@@ -1,0 +1,55 @@
+---
+title: "VizW(h)iz Gallery"
+author: "R-Ladies Sydney"
+date: '2018-12-20'
+slug: "vizwhiz-gallery"
+output: html_document
+---
+
+We thought it might be nice to create our own ggplot inspo? plotsperation? gallery? page, so we gave some local folks the Sydney beaches data with rainfall and temperature ([link](/data/rain_temp_beachbugs.csv)) and asked them to "make a pretty graph" in no more than 10 minutes. 
+
+Here's what we got! We think they're fantastic - especially given our imposed time constraint! 
+
+Sincerest of thank yous to our contributors: Daniel Falster, Lovisa Lannesand, Sarah Romanes, Adrian Walker, and Wendy Wong!
+
+# 1 Bugs by Beaches and Year
+
+This plot comes to us from Daniel Falster (Twitter: @adaptive_plant). Daniel asked: How does the distribution of values change across years and beaches? and used `ggbeeswarm` and all sorts of fun formatting to get the answer!
+
+<img src="/post/2018-12-20-vizwhiz_files/daniel.png" width=60% align="center">
+
+Daniel's RMD file can be found [here](/post/2018-12-20-vizwhiz_files/danielfalster.rmd)
+
+# 2 Bondi Bugs by Temperature
+
+This plot comes to us from Lovisa Lannesand ([LinkedIn](https://www.linkedin.com/in/lovisa-lannesand-188141176/)). Lovisa asked: Are there more beachbugs on a rainy day? and concludes that the best day for someone who loves Bondi, but does not love beachbugs, to go there should be a really hot day."
+
+<img src="/post/2018-12-20-vizwhiz_files/lovisa.png" width=60% align="center">
+
+Lovisa's RMD file can be found [here](/post/2018-12-20-vizwhiz_files/lovisalannesand.rmd)
+
+# 3 Sydney Rainfall by Month
+
+This plot comes to us from Sarah Romanes (Twitter: @sarah_romanes). Sarah plotted average rainfall by month! We think she's on to something... anyone want to venture a guess about bug levels in May vs. June?
+
+<img src="/post/2018-12-20-vizwhiz_files/sarah.png" width=60% align="center">
+
+Sarah's RMD file can be found [here](/post/2018-12-20-vizwhiz_files/sarahromanes.Rmd)
+
+# 4 Beachbugs by Rainy Day
+
+This plot comes to us from Adrian Walker (Twitter: @walkerthon2). Adrian explored the relationship between rain and beachbugs in this beaut of a violin plot and concluded that more beachbugs come out when it rains! (eww)
+
+<img src="/post/2018-12-20-vizwhiz_files/adrian.png" width=60% align="center">
+
+Adrian's RMD file can be found [here](/post/2018-12-20-vizwhiz_files/adrianwalker.Rmd)
+
+# 5 Bug Levels by Beach
+
+This plot comes to us from Wendy Wong (Twitter: @abc_wendsss). Wendy did a ton of whizzy wizardy (check out those data prep commands!) and then plotted bugs by beach. Note to selves: maybe give Malabar and Little Bay a miss!
+
+<img src="/post/2018-12-20-vizwhiz_files/wendy.png" width=60% align="center">
+
+Wendy's RMD file can be found [here](/post/2018-12-20-vizwhiz_files/wendywong.rmd)
+
+

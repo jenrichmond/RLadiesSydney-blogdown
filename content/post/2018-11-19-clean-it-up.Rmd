@@ -1,0 +1,24 @@
+---
+title: Clean It Up Overview
+author: R-Ladies Sydney
+date: '2018-11-19'
+slug: clean-it-up
+categories: []
+tags: []
+---
+
+#RYouWithMe Unit 2 - Clean It Up
+
+
+![](/post/2018-11-19-cleanitup_files/clean-it-up-banner.jpg)
+
+Welcome to the second unit of [RYouWithMe](/ryouwithme)! In Unit 2, we’re moving on to data cleaning! Trust us, it's more fun than housecleaning!
+
+Unit 2 has four lessons:  
+
+1. [Cleaning Up Columns](/post/2018/11/20/clean-it-up-1/)
+2. [Exploring the Rows](/post/2018/11/20/clean-it-up-2/)
+3. [Making New Variables](/post/2018/11/20/clean-it-up-3/)
+4. [Wide to Long to Wide to...](/post/2018/11/28/clean-it-up-4/)
+
+<iframe src="https://giphy.com/embed/z5fNH8BMbeDN6" width="480" height="374" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/notes-z5fNH8BMbeDN6">via GIPHY</a></p>

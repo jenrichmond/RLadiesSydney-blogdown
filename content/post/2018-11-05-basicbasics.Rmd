@@ -1,0 +1,26 @@
+---
+title: "Basic Basics Overview"
+author: "R-Ladies Sydney"
+date: '2018-11-05'
+slug: 'basicbasics'
+categories: []
+tags: []
+---
+
+Welcome to the first unit of [RYouWithMe](/ryouwithme)! In this first unit, you'll lay down the foundational knowledge and skills that will carry you through your R journey! Since it covers the basics of R in hopefully-straightforward way, we're calling it *Basic Basics*... 
+
+
+![](/post/2018-11-05-basicbasics_files/basicbasicsbanner.jpeg)
+
+This unit has three lessons:
+
+1. [An opinionated tour of RStudio](/post/2018/11/05/basicbasics-1/)
+2. [Installing and loading packages](/post/2018/11/05/basicbasics-2/)
+3. [Getting data into RStudio](/post/2018/11/05/basicbasics-3/)
+
+Click on any of the links above to see the lessons. As you embark on Basic Basics, we think this is a useful reminder for R users new and experienced (h/t [realpython](twitter.com/realpython)):
+
+
+![](/post/2018-11-05-basicbasics_files/bblearning.jpeg)
+
+Learning R is a journey - we're delighted to have you along!

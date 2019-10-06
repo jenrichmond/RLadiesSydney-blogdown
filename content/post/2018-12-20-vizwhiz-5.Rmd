@@ -1,0 +1,89 @@
+---
+title: "VizW(h)iz 5: GIFS! A VizW(h)iz Bonus Lesson"
+author: "R-Ladies Sydney"
+date: '2018-12-20'
+slug: "vizwhiz-5"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This bonus VizW(h)iz lesson is a shout-out to R-Ladies Sydney cofounder Lisa Williams. Back in May, she tweeted:
+
+<center>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I vote for this as a tutorial at an upcoming <a href="https://twitter.com/RLadiesSydney?ref_src=twsrc%5Etfw">@RLadiesSydney</a> meetup! <a href="https://twitter.com/djnavarro?ref_src=twsrc%5Etfw">@djnavarro</a> <a href="https://twitter.com/JenRichmondPhD?ref_src=twsrc%5Etfw">@JenRichmondPhD</a> <a href="https://twitter.com/StephdeSilva?ref_src=twsrc%5Etfw">@StephdeSilva</a>! <a href="https://t.co/bBQ4HmbCYW">https://t.co/bBQ4HmbCYW</a></p>&mdash; Dr Lisa A. Williams (@williamslisaphd) <a href="https://twitter.com/williamslisaphd/status/996620682413858816?ref_src=twsrc%5Etfw">May 16, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+
+Your wish is our command, Lisa! [pun intended!]
+
+<center>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I could not possibly love this more! <a href="https://t.co/lQyQlRNVZl">pic.twitter.com/lQyQlRNVZl</a></p>&mdash; Dr Lisa A. Williams (@williamslisaphd) <a href="https://twitter.com/williamslisaphd/status/1074823670273531904?ref_src=twsrc%5Etfw">December 18, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+
+<!--
+<img src="/post/2018-12-20-vizwhiz_files/beachwiz.gif" width=60% align="center">
+-->
+
+
+We are quite certain that you'd appreciate knowing how to perform this whizzy wizardry, so here you are: a step-by-step guide to adding a gif to a ggplot!
+
+### A step-by-step guide to adding a gif to a ggplot
+
+1. Install the `magick` package and load it with ggplot. While you're at it, install the `beepr` package (you'll appreciate this at Step 5!).
+
+```
+library(ggplot)
+library(magick)
+library(beepr)
+```
+
+2. Plot your graph and use ggsave to save it as a .png file.
+
+```
+raintemp %>%
+    na.omit() %>%
+    filter(beachbugs > 500) %>%
+    ggplot(aes(x = rain_mm, y = beachbugs, color = temp_airport)) +
+    geom_point() +
+    geom_smooth() +
+    theme_classic() +
+    scale_colour_distiller(name = "Temp (C)", palette = "RdYlBu") +
+    labs(title = "Mean enterococci bacteria levels at Eastern Suburbs \nbeaches as a function of rainfall and temperature", 
+         subtitle = "only day > 500", 
+         caption = "data from https://www.environment.nsw.gov.au/beachapp/report_enterococci.aspx", 
+         x = "Rainfall (mm)", 
+         y = "Mean enterococci levels")
+    
+ ggsave("beaches.png")
+```
+
+3. Find a gif you like and save it as a .gif file. Read the image files into Rstudio.  
+
+```
+beachplot <- image_read("beaches.png")
+wizgif <- image_read("ladywiz.gif")
+```
+
+4. Make a composite image that puts the beach plot and wiz gif together. Use the offset to move the gif. 
+
+```
+frames <- image_composite(beachplot, wizgif, offset = "+600+200")
+
+```
+
+5. Animate the frames and write to a new gif. It will take ages, so you might like to install the `beepr` package and add a beep to alert you when it is done. The default sounds is a "ping" but if you like mario, try beep(sound = 8).
+
+```
+animation <- image_animate(frames, fps = 10)
+image_write(animation, "beachwiz.gif")
+
+beep()
+```
+
+__Voilà! [GIF-enhanced ggplot!](/post/2018-12-20-vizwhiz_files/beachwiz.gif)__
+
+Try it yourself! We'd love to see your animated awesomeness! Share it on Twitter using the #vizwhiz hashtag and tag us @RLadiesSydney. For those of you R-ladies in Sydney, per usual, share your success (and frustration) on the #ryouwithme_3_vizwhiz channel on Slack. 

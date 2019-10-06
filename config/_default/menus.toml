@@ -6,12 +6,23 @@
 [[main]]
   name = "Blog"
   url = "/post"
-  weight = 10
+  weight = 20
 
 [[main]]
-  name = "About me"
+  name = "About us"
   url = "/authors/admin"
-  weight = 20
+  weight = 40
+  
+  
+[[main]]
+  name = "Events"
+  url = "/events"
+  weight = 30
+  
+[[main]]
+  name = "RYouWithMe"
+  url = "courses/"
+  weight = 10
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

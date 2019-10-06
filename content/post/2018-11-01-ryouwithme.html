@@ -1,0 +1,79 @@
+---
+title: 'RYouWithMe'
+author: 'Lisa Williams'
+date: '2018-11-01'
+slug: 'ryouwithme'
+categories: []
+tags: []
+---
+
+
+
+<div id="ryouwithme-the-inspiration" class="section level1">
+<h1>RYouWithMe: The inspiration</h1>
+<p>I’m Lisa Williams, a social psychologist at UNSW Sydney, and co-founder of R-Ladies Sydney. Truth be told, I’m a complete R newbie. Sure, I’ve executed a few commands here and there. But I’ve found R daunting: the workflow, the pure number of packages, and the ‘cross-your-fingers-and-hope’ nature of executing a command. Yet, increasingly, R is the answer to many of my problems - from data wrangling to visualisation to analysis, the result of my searches for how to achieve something is: “you can do it in R”. A heart-sinking moment for a not-confident R newbie. I got involved in organising R-Ladies Sydney in part because I knew it would create the communal and inclusive space in which we could support folks like me to finally take the dive into learning R.</p>
+<p>I’ve attended all of our R-Ladies Sydney <a href="https://rladiessydney.org/events/">events to date</a>, dutifully following along with the activities - at least at first. But I would quickly get ‘in over my head’. Wait, where’s the data? Why am I getting that error? Why do I need quotes here and not there? So. Much. Frustration. Surely I wasn’t alone.</p>
+<p>In talking to two other R-Ladies Sydney co-founders, Jen Richmond and Danielle Navarro, we realised that we needed to better support our newbies (me included)!</p>
+</div>
+<div id="ryouwithme-the-plan" class="section level1">
+<h1>RYouWithMe: The plan</h1>
+<p>The result: <strong>RYouWithMe</strong> - a series of online learning resources for using R - designed by us, for us. The series is oriented towards R beginners and aims to provide a solid foundation of R skills. That way, future R-Ladies Sydney activities can be accessible to more of our members. Frustration no more! (or at least minimised!)</p>
+<div class="figure">
+<img src="/post/2018-11-01-ryouwithme_files/RYouWithMe.jpg" />
+
+</div>
+<p>We have five ‘units’ planned:<br />
+1. <a href="/post/2018/11/05/basicbasics/">Basic Basics</a><br />
+2. <a href="/post/2018/11/19/clean-it-up/">Clean it up</a> (aka Data Wrangling)<br />
+3. <a href="/post/2018/12/20/vizwhiz/">VizWiz</a> (aka Visualisation Wizardry)<br />
+4. Behind the Curtain (aka The Language of R)<br />
+5. MarkyMark (aka RMarkdown reports)</p>
+<p>Our rather ambitious aim is to roll these out by the end of the year - with Basic Basics going live Monday 4 November.</p>
+<p>You’ll be able to access all of the units and lessons within them here on the R-Ladies Sydney website. The series builds skills cumulatively - so we encourage you to ‘start from the start’. For later units, we’ll provide a brief summary of where you should be up to before diving in.</p>
+<p>We <strong>strongly encourage</strong> all of you local to Sydney to join us over on our <a href="https://goo.gl/forms/MDqlAQfLRhhhCWbG3">Slack space</a>. There, you can join me and a cohort of fellow learners - and our generous teachers! We’ll support one another, and build a local network while we’re at it! Even if you’re joining us later down the track, the Slack space will be an invaluable resource for troubleshooting! As you’ll see below, learning together is evidently where it’s at when it comes to learning R.</p>
+<p>If you’re not from Sydney, or opt not to join Slack, you can of course follow along the lessons here on the site.</p>
+</div>
+<div id="ryouwithme-co-founder-to-co-founders-ama" class="section level1">
+<h1>RYouWithMe: Co-founder to co-founder(s) AMA</h1>
+<p>To kick off this series, I wanted to take the opportunity to learn about Jen and Danielle’s journey in learning and using R. I convinced them to indulge me with an Ask Me Anything (AMA) session. I posed questions that these two RLadies dutifully answered. Below is the result!</p>
+<p><em><strong>Alright - we’ll start broad! When did you start learning and using R? Did you have to ‘take the leap’ from another software? Did you find the process intimidating or exciting? And how long did it take for you to be ‘sold’ on R’s awesomeness?</strong></em></p>
+<p><strong>Danielle:</strong> I came to R from Matlab back in 2009, after finally getting frustrated with licencing restrictions. I found it hard going initially: I’d become very reliant Matlab’s way of doing things and became really frustrated when things that I’d previously been able to do quickly would take me an eternity. The thing that sold me on it, besides the financial gain, was the package system: if I didn’t know how to do a thing I could google it and it would usually turn out that someone else had implemented a solution. It felt like being part of a bigger programming community!</p>
+<p><strong>Jen:</strong> I have only been learning R for about a year, although now I am annoyed that I didn’t make the jump from Excel/SPSS sooner. Originally I started learning because I want to do a particular kind of analysis that was hard to do in SPSS, but I’ve come to realise that R is about way more than statistics. The data wrangling and visualisation power is a really the big selling point for me. My research involves eye-tracking and psychophysiology, which each generate tons of data that you need to boil down to some “analysable” form. I had been doing that with Excel macros. Now with R, I am saving myself hours and ending up with much more reproducible results.</p>
+<p><em><strong>I think one of the barriers to learning R is the sense that the ‘wins’ can be a long way off. Can you recall a recent joyous moment working in R? An achievement in getting some code to work? Or some particularly wonderful output? Convince us that there’s light at the end of this!</strong></em></p>
+<p><strong>Danielle:</strong> The moment I worked out how to make <a href="http://compcogscisydney.org/gallery/bridges/">“Brownian bridge” GIFs</a> was one of the most satisfying experiences I’ve had with R. I loved it so much not just because they’re fun and pretty, but also because it mixes a very new tool (the <code>gganimate</code> package) with the Brownian bridge sampler I found buried in one of the very first R packages I learned (<code>e1071</code>). It felt like a perfect mix of new and old, and while it’s not really the most useful thing I’ve done in R it made me happy.</p>
+<p><strong>Jen:</strong> <code>ggplot</code> gives me joy every day. It is so easy to group_by a different variable and change what you are plotting. I also take great joy in using visualisation to discover errors. Excel and SPSS let you get too far away from your raw data; most of the time you have averaged the hell out of it before you try to make a figure. It is really easy to plot raw data in ggplot (we will cover this in the Vizwiz unit!) so you can easily spot mistakes or outliers. I love geom_point().</p>
+<p><em><strong>Convincing cases, both of you! But, we all know it’s not sunshine and roses. How about a recent time when your laptop nearly got chucked out the window? A time of real frustration? Bonus points for letting us know how you got past it!</strong></em></p>
+<p><strong>Danielle:</strong> Oh, so many stories. I’m almost paralysed trying to choose! The most recent one would probably be dealing with blogdown - I love blogdown, but it’s a bit of a mishmash of different tools and there’s so many ways you can break it if (like me) you’re not careful. The <a href="https://rladiessydney.org/">R-Ladies Sydney blog</a> uses a really simple template, and it’s minimal enough that I can tinker with it. But my <a href="http://djnavarro.net/">personal blog</a> uses the academic theme, and when I had to switch from Mac to Windows a couple of weeks ago I lost the ability to update the page (soooo embarrassing!) I have no idea what I did wrong, but the only way I could fix it was with a complete do-over: reinstalled everything from scratch into a fresh directory, then copied the posts over. It’s still doing something weird though and I don’t understand why :-)</p>
+<p><strong>Jen:</strong> This year I resolved to give up SPSS do all of my data wrangling/analysis in R so I was constantly trying to learn how to do the most stupidly simple things that would take me a couple of minutes in Excel. Like…. calculating the age of the kids in a particular study but expressing that age in months. I spent a whole afternoon trying to simply subtract the kids’ test date from their birthdate and then turn that age in days into months. I could make it give me age in years, but dividing the days by 30 gave me something that looked like months but was still in day format … it was a nightmare. As it turns out R is really particular about dates and you need to use a package called <code>lubridate</code> to get around all kinds of assumptions about date formats.</p>
+<p>The solution to all of my R problems is usually <a href="https://twitter.com/search?q=%23rstats&amp;src=typd">#rstats Twitter</a>. The community on Twitter are SO KIND and GENEROUS; I asked the question there and had heaps of people jump in and help me. It’s great. Of course, there is no way that I will remember the solution to that calculating age problem, so rather than starting from scratch with my googling next time I wrote a blog post about it. My thoughts here might not make sense to anyone but me but if you need to calculate age (or use lubridate) check it out <a href="http://jenrichmond.rbind.io/portfolio/calculating-age/">here</a></p>
+<p><em><strong>Bonus points awarded to both!</strong></em></p>
+<p><strong>Danielle &amp; Jen:</strong> Thanks, Lisa!</p>
+<p><em><strong>Speaking to newbies now, looking back, what is one practice you wish you had put in place early that would make your life using R easier now?</strong></em></p>
+<p><strong>Danielle:</strong> Why did I not use RStudio projects (and/or the “here” package) from the beginning??*</p>
+<p>Oh also, why is my documentation always so terrible?! I’m only very slowly learning that “me in six months time” is a complete stranger who has no idea what I’m thinking and doesn’t agree with me about anything, so she needs to be given clear instructions about how to make sense of my code. It makes sense to me now, but it never makes sense to me later. Must. Leave. Better. Comments.</p>
+<p><strong>Jen:</strong> I’m with Danielle on this one, working directories in R are the worst! I’m still not sure I get it, but always working in a Project and the <code>here</code> package helps. We will show you how to use Projects and <code>here</code> in the Basic Basics module so you can avoid that pain.</p>
+<p><em><strong>Now we’re at the get-to-know you stage of the AMA! What’s your ‘favourite’ package? I know - it’s like picking a favourite child or pet… I’ll allow a categorised answer “favourite package for X” and “favourite package for Y”.</strong></em></p>
+<p><strong>Danielle:</strong> I feel like it’s cheating to say <code>tidyverse</code> since that’s not one package and besides, everyone loves tidyverse right? But still… the thing I love about tidyverse is that it takes things that previously felt effortful and makes them natural. Whether it’s manipulating data with <code>dplyr</code>, playing with text with <code>stringr</code>, or functional programming with <code>purrr</code>, I find that it consistently makes it easier for me to “just do my job” rather than think “okay… how do I do X?”</p>
+<p>Outside of tidyverse, <code>rjags</code> is my favourite statistics package because I use JAGS to do Bayesian analyses, and it’s so nice to be able to cleanly interact with it from R. For no particular reason I am also a huge fan of <code>janeaustenr</code>.</p>
+<p><strong>Jen:</strong> Ooooo so many! Let’s start with <code>datapasta</code>, which allows you to copy and paste table shaped data from anywhere into R as a dataframe. I have recently discovered <code>janitor</code>; so far I have just used the clean_names() function, which does what you would expect – makes all your column names nicer– but I suspect it is full of all kinds of useful helper functions. I like <code>ggbeeswarm</code>, which is a <code>ggplot</code> addin that allows you to plot the distribution of raw data but adds a little bit of noise so that all the points don’t overlap each other. I could go on and on….</p>
+<p><em><strong>I’m just going to trust you both that you’re not making these package names up! Purrr? Datapasta??</strong></em></p>
+<p><em><strong>I’ve considered it a privelege to co-found R-Ladies Sydney with you both. I’m curious to hear what you’ve liked most about your experience with R-Ladies?</strong></em></p>
+<p><strong>Danielle:</strong> Oh, so many things! I could say a lot about how wonderfully supportive R-Ladies are in helping each other learn both in real life and on twitter, but I think one of the huge things about R-Ladies is that it provides a safe space. I’ve had a couple of experiences of my own where supportive comments by R-Ladies have helped me deal with some genuinely scary moments, and I know other people have too. Knowing that other R-Ladies will always be there for you is a huge deal, and is one of the big reasons I care so much about trying to give back.</p>
+<p><strong>Jen:</strong> RLadies are so generous. Inevitably, when I am on Twitter asking a stupidly naive #rstats question, it is an RLady who is the first to pipe up and offer a solution. The international community is just great. I love that the whole organisation is centred around learning. Whether you are totally new or an absolute expert, there is always something new to learn and an RLady who would love to help you out.</p>
+<p><em><strong>And finally, what is one piece of advice you’d give to our RYouWithMe participants who are jumping into R as relative newbies?</strong></em></p>
+<p><strong>Danielle:</strong> Don’t be afraid to ask questions! There’s a whole community of R-Ladies willing to help!</p>
+<p><strong>Jen:</strong> Apply what you are learning to your own data. It is all very well to follow along with our modules and be able to run code on the perfect data in the examples, but we know that data in the real world is never perfect and transferring new skills into the real world is the hard bit. Try out what you are learning on YOUR data and post your frustrations (there will be frustrations) in the slack channel so that we can help each other and see that everyone is in the same boat.</p>
+<p><em><strong>Fantastic! Thank you, Jen and Danielle - I’m sure I speak on behalf of the rest of R-Ladies Sydney when I say that your insights are invaluable!</strong></em></p>
+</div>
+<div id="join-us" class="section level1">
+<h1>Join us!</h1>
+<p>So, RYouWithMe? I certainly hope so! Basic Basics will launch 4 November!</p>
+<p>I’ll be learning alongside you - and hope to see you Sydney-siders on <a href="https://goo.gl/forms/MDqlAQfLRhhhCWbG3">Slack</a>!</p>
+<p>I’d like to take this chance to also thank those of you who’ve volunteered as teachers for RYouWithMe! We’ll be in touch soon with ways you can help out!</p>
+<p>If you haven’t yet already, join us on <a href="https://www.meetup.com/en-AU/rladies-sydney/">MeetUp</a> to hear about future events and follow us on <a href="https://twitter.com/RLadiesSydney">Twitter</a>!</p>
+<p>Thoughts? Ideas for units? Want to get involved as a teacher? Email us at <a href="mailto:rladiessydney@gmail.com">rladiessydney@gmail.com</a>! We’d love to hear from you!</p>
+<div id="a-coda" class="section level3">
+<h3>A coda</h3>
+<p>In the spirit of celebrating successes, <em>I created and formatted this post in a R-Markdown file!</em> (of course, under the tutelage of Jen and Danielle)! Yes, there was at least one ‘chuck laptop out window’ moment, but I got through it - and thankfully my laptop is still intact.</p>
+</div>
+</div>

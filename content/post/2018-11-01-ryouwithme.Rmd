@@ -1,21 +1,14 @@
 ---
-date: "2018-09-09T00:00:00Z"
-draft: false
-lastmod: "2018-09-09T00:00:00Z"
-linktitle: ""
-menu:
-  example:
-    name: What is RYouWithMe? 
-    weight: 1
-summary: A series of online modules designed by beginners for beginners. Learn about how the RYouWithMe program came about and how to get started.
-title: "RYouWithMe"
-toc: true
-type: docs
-weight: 1
+title: 'RYouWithMe'
+author: 'Lisa Williams'
+date: '2018-11-01'
+slug: 'ryouwithme'
+categories: []
+tags: []
 ---
 
 
-# The inspiration
+# RYouWithMe: The inspiration
 
 I’m Lisa Williams, a social psychologist at UNSW Sydney, and co-founder of R-Ladies Sydney. Truth be told, I’m a complete R newbie. Sure, I’ve executed a few commands here and there. But I’ve found R daunting: the workflow, the pure number of packages, and the ‘cross-your-fingers-and-hope’ nature of executing a command. Yet, increasingly, R is the answer to many of my problems - from data wrangling to visualisation to analysis, the result of my searches for how to achieve something is: “you can do it in R”. A heart-sinking moment for a not-confident R newbie. I got involved in organising R-Ladies Sydney in part because I knew it would create the communal and inclusive space in which we could support folks like me to finally take the dive into learning R.
 
@@ -29,12 +22,14 @@ The result: __RYouWithMe__ - a series of online learning resources for using R -
 
 ![](/post/2018-11-01-ryouwithme_files/RYouWithMe.jpg)
 
-We have four ‘units’ planned:  
+We have five ‘units’ planned:  
 1. [Basic Basics](/post/2018/11/05/basicbasics/)  
 2. [Clean it up](/post/2018/11/19/clean-it-up/) (aka Data Wrangling)  
 3. [VizWiz](/post/2018/12/20/vizwhiz/) (aka Visualisation Wizardry)  
-4. MarkyMark (aka RMarkdown reports)  
+4. Behind the Curtain (aka The Language of R)  
+5. MarkyMark (aka RMarkdown reports)  
 
+Our rather ambitious aim is to roll these out by the end of the year - with Basic Basics going live Monday 4 November.
 
 You’ll be able to access all of the units and lessons within them here on the R-Ladies Sydney website. The series builds skills cumulatively - so we encourage you to ‘start from the start’. For later units, we’ll provide a brief summary of where you should be up to before diving in.
 
@@ -121,4 +116,3 @@ Thoughts? Ideas for units? Want to get involved as a teacher? Email us at [rladi
 ###A coda
 
 In the spirit of celebrating successes, *I created and formatted this post in a R-Markdown file!* (of course, under the tutelage of Jen and Danielle)! Yes, there was at least one ‘chuck laptop out window’ moment, but I got through it - and thankfully my laptop is still intact.
-
