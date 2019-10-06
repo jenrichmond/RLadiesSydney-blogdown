@@ -1,0 +1,30 @@
+---
+title: ShutUpandCode
+author: Jen Richmond
+date: '2019-10-06'
+slug: []
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2019-10-06T11:51:35+11:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+
+Learning something new on your own is hard! So lets meet up and learn new R things together.
+
+Each month we get together to meet up, shut up (talking is allowed if you are seeking/getting help), and code.
+
+Modelled on the academic writing #ShutUpAndWrite movement (https://thesiswhisperer.com/shut-up-and-write/), the idea is make learning social.
+
+There are only 10 places available at each session, so ONLY RSVP if you are SURE you will come. Please do not take a place from another RLady, and then not turn up.
+
+Check out our [Meetup page](https://www.meetup.com/rladies-sydney/) to see if there is a ShutUpAndCode session scheduled soon

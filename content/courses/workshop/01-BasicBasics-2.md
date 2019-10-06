@@ -88,7 +88,8 @@ Searching twitter is also a great way of locating people who might have written 
 
 Now that you have the `tidyverse` and `here` (and a few other potentially useful packages) installed, let's read in some data. 
 
-On to [Lesson 3!](/post/2018/11/05/basicbasics-3/)
+
+Now onto [Lesson 3!](/courses/workshop/01-BasicBasics-3/)
 
 
 

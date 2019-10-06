@@ -1,0 +1,21 @@
+---
+title: RYouWithMe
+author: Jen Richmond
+date: '2019-10-06'
+slug: []
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2019-10-06T13:30:06+11:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+Find a link to our [RYouWithMe online beginner modules here](/courses/workshop/_index/)
+

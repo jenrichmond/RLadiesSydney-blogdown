@@ -1,37 +1,30 @@
 ---
 authors:
 - admin
-bio: My research interests include learning, memory, and emotion understanding development in infancy and early childhood. 
+bio: R-Ladies Sydney is devoted to promoting gender diversity in the R community. We run monthly meetups that create a welcoming and inclusive enviornment for yout o learn R. You can join our meetup group here and see some events that we have run recently. We also run informal #ShutUpAndCode sessions and have designed a set of online modules called #RYouWithMe to help beginners get up to speed 
 education:
-  courses:
-  - course: PhD in Psychology
-    institution: University of Otago
-    year: 2004
+ 
   
-email: "jrichmond@psy.unsw.edu.au"
+email: "rladiessydney@gmail.com"
 interests:
-- learning 
-- memory 
-- emotion
-- rstats 
-name: Jenny Richmond
+name: RLadies Sydney
 organizations:
-- name: University of New South Wales
+- name: ""
   url: ""
-role: Associate Professor, School of Psychology
+role: ""
 social:
 - icon: envelope
   icon_pack: fas
   link: '#contact'
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/JenRichmondPhD
+  link: https://twitter.com/RLadiesSydney
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.com/citations?hl=en&user=abDWUYwAAAAJ&view_op=list_works&sortby=pubdate
+  link: ""
 - icon: github
   icon_pack: fab
-  link: https://github.com/jenrichmond
+  link: https://github.com/RLadiesSydney
 superuser: true
 user_groups:
 - Students
@@ -39,4 +32,4 @@ user_groups:
 - Visitors
 ---
 
-Jenny Richmond is an Associate Professor in the School of Psychology at UNSW Sydney. Her research investigates the development of learning, memory and emotion understanding in infancy and early childhood. She uses eyetracking and psychophysiology to study the mechanisms that underlie change early in life. She is the co-founder of R-Ladies Sydney. 
+R-Ladies Sydney was co-founded by Jenny Richmond, Dani Navarro, Lisa Williams and Steph DeSilva in 2018.  

@@ -8,7 +8,7 @@ weight = 10  # Order that this section will appear.
 title = "Welcome to the \n R-Ladies Sydney website!"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
-hero_media = "horst/bakers_3.png"
+hero_media = "purple_sails.png"
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -34,8 +34,8 @@ hero_media = "horst/bakers_3.png"
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
 [cta]
-  url = "https://sourcethemes.com/academic/docs/install/"
-  label = "Start here!"
+  url = "/courses/workshop/_index/"
+  label = "RYouWithMe- start here!"
   icon_pack = "fas"
   icon = "rocket"
   

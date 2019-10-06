@@ -1,0 +1,76 @@
+---
+title: Events 2019
+author: Jen Richmond
+date: '2019-10-06'
+slug: []
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2019-10-06T13:27:54+11:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+Find links to speaker profiles, slides, and github repositories (where available) here. 
+
+## Plot Twist (4 October 2019)
+- Presenter: Alison Hill 
+- Slides:
+- Github:
+
+
+## Reproducible analysis (28 August 2019)
+- Presenter: Saras Whitacker
+- Slides:
+- Github:
+
+
+## purrr (21 August 2019)
+- Presenter: Rebecca Barter
+- Slides:
+- Github:
+
+## Happy Birthday to Us!
+- Presenter: Lots of awesome ladies!
+- Slides:
+- Github:
+
+## RMarkdown Hackdown
+- Presenter: everyone!
+- Slides:
+- Github:
+
+## DataSci Ed hackday
+
+- Presenter: everyone! 
+- Slides:
+- Github:
+
+
+## Hadley Wickham (30 April 2019)
+- Presenter: Hadley Wickham
+- Slides:
+- Github:
+
+## Twitter (23rd April 2019)
+- Presenter: Khandis Blake
+- Slides:
+- Github:
+
+## RMarkdown Hackdown (27th February 2019)
+- Presenter: everyone!
+- Slides:
+- Github:
+
+## Introduction to Stan (24 Feburary 2019)
+
+## RYou(still) WithMe (23 January 2019)
+
+## Machine Learning 101, Part 2, (17-Oct-2018)

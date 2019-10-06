@@ -101,4 +101,4 @@ But what if my data isn't in .csv format?? No problem, there is a package for th
 
 ... but R has tools for working with a very wide range of possible data formats and so there are packages out there for all sorts of things. But we'll leave those for a later date.
 
-That's it for [Basic Basics](/post/2018/11/05/basicbasics/) (at least for now!). We hope you go and explore RStudio more while you wait for the next [RYouWithMe](/ryouwithme) unit to drop!
+That's it for [Basic Basics](/courses/workshop/01-BasicBasics-0/) (at least for now!). We hope you go and explore RStudio more while you wait for the next [RYouWithMe](/courses/workshop/_index/) unit to drop!

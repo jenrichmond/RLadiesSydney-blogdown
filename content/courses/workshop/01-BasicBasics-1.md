@@ -54,7 +54,7 @@ Watch the video and then carry out the following steps:
 
 For quick reference, here's a screenshot of the quadrants and a brief explanation
 
-![](/post/2018-11-05-basicbasics-1_files/quadrants.jpg)
+![](/static/img/quadrants.jpg)
 
 
   * Q1 - contains: script, data, command to run script
@@ -68,9 +68,9 @@ Some people like Rstudio to remember stuff from session to session. We think thi
 
 Locate Preferences (on Mac, this is in the RStudio menu). In the General tab, uncheck "Restore .RData..."  and select "never" for "Save workspace..."
 
-![](/post/2018-11-05-basicbasics-1_files/settings.jpg)
+![](/static/img/settings.jpg)
 
 Tada! 
 
-Now onto [Lesson 2: Installing and Loading Packages!](/post/2018/11/05/basicbasics-2/)
+Now onto [Lesson 2: Installing and Loading Packages!](/courses/workshop/01-BasicBasics-2/)
 

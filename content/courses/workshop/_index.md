@@ -23,17 +23,17 @@ I’ve attended all of our R-Ladies Sydney [events to date](https://rladiessydne
 
 In talking to two other R-Ladies Sydney co-founders, Jen Richmond and Danielle Navarro, we realised that we needed to better support our newbies (me included)!
 
-#RYouWithMe: The plan
+# RYouWithMe: The plan
 
 The result: __RYouWithMe__ - a series of online learning resources for using R - designed by us, for us. The series is oriented towards R beginners and aims to provide a solid foundation of R skills. That way, future R-Ladies Sydney activities can be accessible to more of our members. Frustration no more! (or at least minimised!)
 
 ![](/post/2018-11-01-ryouwithme_files/RYouWithMe.jpg)
 
 We have four ‘units’ planned:  
-1. [Basic Basics](/post/2018/11/05/basicbasics/)  
-2. [Clean it up](/post/2018/11/19/clean-it-up/) (aka Data Wrangling)  
-3. [VizWiz](/post/2018/12/20/vizwhiz/) (aka Visualisation Wizardry)  
-4. MarkyMark (aka RMarkdown reports)  
+1. [Basic Basics](/courses/workshop/01_BasicBasics-0/)  
+2. [Clean it up](/courses/workshop/02_CleanItUp-0/) (aka Data Wrangling)  
+3. [VizWiz](/courses/workshop/03_VizWhiz-0/) (aka Visualisation Wizardry)  
+4. [MarkyMark](/courses/workshop/04_MarkyMark-0/) (aka RMarkdown reports)  
 
 
 You’ll be able to access all of the units and lessons within them here on the R-Ladies Sydney website. The series builds skills cumulatively - so we encourage you to ‘start from the start’. For later units, we’ll provide a brief summary of where you should be up to before diving in.
@@ -43,8 +43,7 @@ We **strongly encourage** all of you local to Sydney to join us over on our [Sla
 If you’re not from Sydney, or opt not to join Slack, you can of course follow along the lessons here on the site.
 
 
-
-#RYouWithMe: Co-founder to co-founder(s) AMA
+# RYouWithMe: Co-founder to co-founder(s) AMA
 
 To kick off this series, I wanted to take the opportunity to learn about Jen and Danielle’s journey in learning and using R. I convinced them to indulge me with an Ask Me Anything (AMA) session. I posed questions that these two RLadies dutifully answered. Below is the result!
 
