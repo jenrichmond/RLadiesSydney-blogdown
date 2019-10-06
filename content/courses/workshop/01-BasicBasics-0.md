@@ -16,6 +16,7 @@ Welcome to the first unit of [RYouWithMe](/courses/workshop/_index/)! In this fi
 
 ![banner](/workshop/01-BasicBasics-0_files/basicbasicsbanner.jpg)
 
+
 This unit has three lessons:
 
 1. [An opinionated tour of RStudio](/courses/workshop/01-BasicBasics-1/)

@@ -19,7 +19,7 @@ weight: 1
 
 I’m Lisa Williams, a social psychologist at UNSW Sydney, and co-founder of R-Ladies Sydney. Truth be told, I’m a complete R newbie. Sure, I’ve executed a few commands here and there. But I’ve found R daunting: the workflow, the pure number of packages, and the ‘cross-your-fingers-and-hope’ nature of executing a command. Yet, increasingly, R is the answer to many of my problems - from data wrangling to visualisation to analysis, the result of my searches for how to achieve something is: “you can do it in R”. A heart-sinking moment for a not-confident R newbie. I got involved in organising R-Ladies Sydney in part because I knew it would create the communal and inclusive space in which we could support folks like me to finally take the dive into learning R.
 
-I’ve attended all of our R-Ladies Sydney [events to date](https://rladiessydney.org/events/), dutifully following along with the activities - at least at first. But I would quickly get ‘in over my head’. Wait, where’s the data? Why am I getting that error? Why do I need quotes here and not there? So. Much. Frustration. Surely I wasn’t alone.
+I’ve attended all of our R-Ladies Sydney [events to date](/events/_index/), dutifully following along with the activities - at least at first. But I would quickly get ‘in over my head’. Wait, where’s the data? Why am I getting that error? Why do I need quotes here and not there? So. Much. Frustration. Surely I wasn’t alone.
 
 In talking to two other R-Ladies Sydney co-founders, Jen Richmond and Danielle Navarro, we realised that we needed to better support our newbies (me included)!
 
