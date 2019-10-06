@@ -14,7 +14,7 @@ weight: 1
 
 Welcome to the first unit of [RYouWithMe](/courses/workshop/_index/)! In this first unit, you'll lay down the foundational knowledge and skills that will carry you through your R journey! Since it covers the basics of R in a hopefully straightforward way, we're calling it *Basic Basics*... 
 
-![Basics Banner](/static/img/basicbasicsbanner.jpg)
+![banner](/workshop/01-BasicBasics-0_files/basicbasicsbanner.jpg)
 
 This unit has three lessons:
 
