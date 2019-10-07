@@ -1,0 +1,38 @@
+---
+title: "Sydney beaches"
+author: "Daniel Falster"
+date: "14/11/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(scales)
+library(ggbeeswarm)
+library(lubridate)
+```
+
+Load data, extract year using the package lubridate
+```{r,warning=FALSE, results='hide', message=FALSE}
+data <- read_csv("https://rladiessydney.org/data/sydneybeaches.csv") %>% 
+  mutate(year = Date %>% lubridate::dmy() %>% lubridate::year())
+```
+
+Question: How does the distribution of values change across years and beaches?
+
+Plot using these package ggbeeswarm:
+
+```{r, warning=FALSE}
+ggplot(data, aes(y = `Enterococci (cfu/100ml)`, x = year, colour = log(`Enterococci (cfu/100ml)`))) +
+  ggbeeswarm::geom_quasirandom() +
+  scale_y_log10( name="Enterococci (cfu/100ml)",
+                 breaks = scales::trans_breaks("log10", function(x) 10^x),
+                 labels = scales::trans_format("log10", scales::math_format(10^.x))) +
+  theme(legend.position = "none")+ 
+  facet_wrap(vars(Site)) 
+```
+```{r}
+ggsave("daniel.png")
+```
+

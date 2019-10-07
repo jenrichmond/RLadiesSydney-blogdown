@@ -1,0 +1,74 @@
+---
+title: "Graph4Jenny"
+author: "Adrian"
+date: "13 November 2018"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library('tidyverse')
+theData <- read.csv('rain_temp_beachbugs.csv')
+```
+
+## Clean some Data
+
+This section cleans the data to be what we want it to be
+
+```{r cleanData}
+theData <- mutate(theData, 
+                  rainy_day = rain_mm > mean(rain_mm, na.rm = TRUE), 
+                  hot_day = temp_airport > mean(temp_airport))
+
+graphData  <- group_by(theData, council, site, rainy_day, hot_day) %>% 
+  summarise(mean_beachbugs = mean(beachbugs, na.rm = TRUE), 
+            mean_rain = mean(rain_mm, na.rm = TRUE), 
+            mean_temp = mean(temp_airport), 
+            number_of_records = n())
+
+graphData <- na.omit(graphData)
+
+```
+
+## Eye-ball the data
+
+Much more manageable! Let's take a quick look at the cleaned data, perhaps a glass will tell us if there's something we might plot. 
+
+```{r}
+graphData
+```
+
+## Time to graph
+Woah, still kinda complicated. Fortunately we can use graphs to see if there's something going on.
+
+For example, let's start with looking if rainy days affect the number of beach-bugs.
+
+```{r}
+ggplot(data = graphData, mapping = aes(x = rainy_day, y = mean_beachbugs)) +
+  geom_violin(fill = "blue", colour = "black", alpha = .3, size = 1) +
+  geom_point(alpha = .7, size = 2) +
+  ggtitle('Do beachbugs prefer rainy days?') +
+  labs(x = "Was it a rainy day today?", y = 'Average number of beachbugs') +
+  theme(plot.title = element_text(family = 'Arial', size = 16, hjust = .5),
+        axis.title = element_text(family = 'Arial', size = 12),
+        axis.text = element_text(family = 'Arial', size = 12),
+        axis.line.x = element_line('black'),
+        axis.line.y = element_line('black'),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.background = element_rect(fill = 'white'),
+        plot.background = element_rect(fill = 'white')
+  )
+
+```
+```{r}
+ggsave("adrian.png")
+```
+
+
+## Success!
+That's better! It seems quite clear from this data that more beachbugs come out when it rains!
+
+There's still quite a spread in the data here. With more digging, you might be able to find out if any variable interacts with rain. You could also start digging into other parts of the data. For example, do beachbugs prefer hot or cold days?

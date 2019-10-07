@@ -1,0 +1,94 @@
+---
+title: "Are there more beachbugs on a rainy day?"
+author: "Lovisa Lannesand"
+date: "15 November 2018"
+output:
+  html_document:
+    fig_height: 4
+    fig_width: 8
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(data.table)
+library(ggplot2)
+
+dt <- data.table(read.csv("rain_temp_beachbugs.csv"))
+summary(dt)
+
+# Seem to be some missing values for rain_mm & beachbugs - let's remove for the purpose of this excerice 
+dt <- dt[!is.na(rain_mm) & !is.na(beachbugs)]
+
+# Yes, I prefer data table, I am the devil :)
+```
+
+## Are there more beachbugs on a rainy day? 
+
+```{r, echo=TRUE}
+
+# First, let's make a simple scatter plot 
+ggplot(dt, aes(x = temp_airport, y = beachbugs)) + 
+  geom_point() 
+
+```
+
+```{r,  echo=FALSE}
+
+# Doesn't look like there is a linear relationship - but let's add a simple linear regression anyway!
+# And while we are at it, let's add in some headings and change the axis names + add a theme
+
+ggplot(dt, aes(y = beachbugs, x = temp_airport)) + 
+  geom_point() +
+  theme_bw() +
+  geom_smooth(method = lm, se = FALSE) +
+  labs(title = "Does beachbugs like warm weather?", y = "# Beachbugs", x = "Temperature")
+
+```
+
+
+```{r,  echo=FALSE, fig.height=14, fig.width=12}
+
+# But .. maybe there's a difference depending on what site we look at? Let's facet on site. 
+# And we need some color! We don't need a legend because we are facetting, remove it with the guides argument. 
+
+ggplot(dt, aes(x = temp_airport, y = beachbugs, color = site)) + 
+  geom_point() +
+  labs(title = "Does beachbugs like warm weather?", y = "# Beachbugs", x = "Temperature") +
+  facet_wrap(~site, scales = "free_y") +
+  guides(fill=FALSE, color=FALSE)
+
+# I like to use scales = "free_y" so each facet has it's own y-scale
+
+```
+
+```{r,  echo=FALSE, fig.height=14, fig.width=12}
+
+# My fave beach is bondi, so I would like to take a closer look at it. 
+# Let's filter for bondi
+
+ggplot(dt[site == "Bondi Beach"], aes(x = temp_airport, y = beachbugs)) + 
+  geom_point() +
+  labs(title = "Does (Bondi) beachbugs like warm weather?", y = "# Beachbugs", x = "Temperature") +
+  guides(fill=FALSE, color=FALSE)
+
+
+```
+
+```{r,  echo=FALSE}
+
+# And to make everything abit more fun, let's add some color! With scale_color_gradient we can add color depending on the value, let's make high number of beachbugs red to be easily spotted. 
+
+ggplot(dt[site == "Bondi Beach"], 
+       aes(x = temp_airport, y = beachbugs, color = beachbugs)) + 
+  geom_point() +
+  scale_color_gradient(low="darkgreen", high="red") +
+  labs(title = "Does (Bondi) beachbugs like warm weather?", y = "# Beachbugs", x = "Temperature") +
+  guides(fill=FALSE, color=FALSE)
+
+
+# Seems like the best time to go for someone that loves Bondi, but does not like beachbugs should go on a really hot day. 
+
+ggsave("lovisa.png")
+```
+& beachbugs <200

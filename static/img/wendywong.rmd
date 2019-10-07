@@ -1,0 +1,94 @@
+---
+title: "enterococci"
+author: "wendy wong"
+date: "15 November 2018"
+output:
+  html_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r cars}
+# Install packages in the console:
+
+#install.packages("tidyverse")
+#install.packages("dummies")
+# install.packages("knitr")
+
+# Load packages
+
+library(tidyverse)
+library(knitr)
+
+
+# Read csv file. 
+# Use the import dataset function after the data is in the correct working directory.
+# The data is enterococci levels at sydney beaches over the last 5 years, as well as rainfall and  temperature. Check out this post if you want to learn about enterococci https://rladiessydney.org/post/2018/11/05/basicbasics-3/. 
+
+library(readr)
+rain_temp_beachbugs <- read_csv("rain_temp_beachbugs.csv")
+data <- rain_temp_beachbugs
+
+# View the data
+glimpse(data)
+
+# View structure of the data
+str(data)
+
+# inspect first 5 values
+head(data)
+
+# Pre-process and clean the data
+# convert chracters into factors
+library(dummies)
+
+data$council <- as.factor(data$council)
+data$site <- as.factor(data$site)
+data$region <- as.factor(data$region)
+data$temp_airport<- as.numeric(data$temp_airport)
+data$rain_mm<- as.numeric(data$rain_mm)
+
+# Check status of cleaned data
+str(data)
+
+# Descriptive statistics of data
+summary(data)
+
+######  ggplot2 ######
+# https://ggplot2.tidyverse.org/reference/geom_bar.html#examples
+library(RColorBrewer)  #add colour palette
+library(ggplot2)
+
+
+# 1.  Discrete and continuous, add linear regression to highlight trends
+ a <- ggplot(data, aes(temp_airport,rain_mm)) 
+ a + geom_point() + geom_smooth(method = "lm")
+             
+# 2.  Plot - site
+b <- ggplot(data, aes(site))
+b + 
+  geom_bar(aes(fill=site), position = position_stack(reverse = TRUE)) +
+  coord_flip() +
+  theme(legend.position = "top")
+
+# ScatterPlot - beachbugs
+c <- ggplot(data,aes(beachbugs,site)) 
+c + geom_point(color = "steelblue", size = 4, alpha = 1/2)
+
+ggsave("wendy.png")
+
+ # compare date and beachbugs
+f <- ggplot(data,aes( x = date, y = rain_mm))
+f + geom_line() + ylim(-3,3)
+
+
+```
+
+
+
+

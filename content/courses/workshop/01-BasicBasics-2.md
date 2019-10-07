@@ -64,7 +64,7 @@ When you are looking for information about a package there are a few places to l
 
 ### Step 1: Look on CRAN 
 
-![](/post/2018-11-05-basicbasics-2_files/CRAN_janitor.png)
+![](/img/CRAN_janitor.png)
 
 The README file is most often pretty useful. [janitor README](https://cran.r-project.org/web/packages/janitor/readme/README.html)
 
@@ -76,14 +76,14 @@ A vignette is a long form guide to using the package. For the `janitor` package,
 
 You can see when we google "how to use the janitor package R" the first things that come up are CRAN documentation but under that there are links to documentation and blog posts by other R users who have found the package helpful and written about it. 
 
-![](/post/2018-11-05-basicbasics-2_files/google_janitor.png)
+![](/img/google_janitor.png)
 
 
 ### Step 4: Have a look on Twitter
 
 Searching twitter is also a great way of locating people who might have written a blog post about how to use a package. Search [#rstats janitor] to find people who have liked the package enough to bother tweeting about it. 
 
-![](/post/2018-11-05-basicbasics-2_files/twitter_janitor.png)
+![](/img/twitter_janitor.png)
 
 
 Now that you have the `tidyverse` and `here` (and a few other potentially useful packages) installed, let's read in some data. 

@@ -1,0 +1,50 @@
+---
+title: "ggplot"
+author: "Sarah Romanes"
+date: "12 November 2018"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+# Read in data
+
+```{r}
+library(tidyverse)
+data <- read_csv("data/rain_temp_beachbugs.csv")
+```
+
+# Some plots
+
+```{r Plot by beach site}
+p <- ggplot(data, aes(x=beachbugs))+geom_histogram(fill="dodgerblue") +
+  scale_x_log10()+
+  facet_wrap(~site, ncol=2)
+
+p
+```
+
+```{r Plot by council}
+p1 <- ggplot(data, aes(x=beachbugs))+geom_histogram(fill="dodgerblue") +
+  scale_x_log10()+
+  facet_wrap(~council, nrow=2)
+
+p1
+
+ggsave("sarahbeachbugs.png")
+```
+
+```{r}
+ggsave("sarahbeachbugs.png")
+```
+
+
+```{r plot by date and rain_mm}
+
+data_1 <- data %>% group_by(month=lubridate::month(data$date, label=TRUE)) %>% summarise(avg_rain=mean(rain_mm, na.rm = TRUE), avg_bug=mean(beachbugs, na.rm = TRUE))
+p2 <- ggplot(data_1, aes(x=month, y=avg_rain)) + geom_bar(stat="identity", fill="skyblue")
+p2
+
+ggsave("sarah.png")
+```
+

@@ -6,7 +6,7 @@ menu:
   workshop:
     parent: BasicBasic
     weight: 2
-title: Basic Basics 1 
+title: BasicBasics 1 
 toc: true
 type: docs
 weight: 1
@@ -31,7 +31,7 @@ By the end of the lesson, you should:
 
 The first step is pretty straigforward. First, install [R](https://cloud.r-project.org/) then install [RStudio](https://www.rstudio.com/products/rstudio/download/#download). 
 
-For this lesson (and likely the rest of RYouWithMe), we'll be using R v.3.5.1 (2018-07-02) -- "Feather Spray" and RStudio Version 1.1.463. So, if you already had R and/or RStudio installed, **best to check for version updates!** It probably won't make that much of a difference if you have an older version, but very occasionally it does matter `r emo::ji("grinning")`. Also, note that our screenshots and screencasts will be use a Mac, but the instructions should broadly apply to PC users!
+For this lesson (and likely the rest of RYouWithMe), we'll be using R v.3.5.1 (2018-07-02) -- "Feather Spray" and RStudio Version 1.1.463. So, if you already had R and/or RStudio installed, **best to check for version updates!** It probably won't make that much of a difference if you have an older version, but very occasionally it does matter. Also, note that our screenshots and screencasts will be use a Mac, but the instructions should broadly apply to PC users!
 
 ## 1.2 Creating files and a tour of the studio
 
@@ -54,7 +54,7 @@ Watch the video and then carry out the following steps:
 
 For quick reference, here's a screenshot of the quadrants and a brief explanation
 
-![](/static/img/quadrants.jpg)
+![](/img/quadrants.jpg)
 
 
   * Q1 - contains: script, data, command to run script
@@ -68,7 +68,7 @@ Some people like Rstudio to remember stuff from session to session. We think thi
 
 Locate Preferences (on Mac, this is in the RStudio menu). In the General tab, uncheck "Restore .RData..."  and select "never" for "Save workspace..."
 
-![](/static/img/settings.jpg)
+![](/img/settings.jpg)
 
 Tada! 
 

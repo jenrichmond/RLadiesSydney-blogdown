@@ -47,7 +47,7 @@ Studies have shown a strong relationship between elevated levels of enterococci 
 Check out this picture of enterococci wearing R-Ladies purple!
 
 
-![](/post/2018-11-05-basicbasics-3_files/enterococci.jpg)
+![](/img/enterococci.jpg)
 
 
 Ok - back to the lesson...
@@ -78,7 +78,7 @@ What kind of assumptions does R make about the kind of data in each of your colu
 *__Example.__ Here I have made a subfolder called myowndata within my data folder and put a .csv file in it.* 
 
 
-![](/post/2018-11-05-basicbasics-3_files/myowndata.png)
+![](/img/myowndata.png)
 
 *To read it in using the `here` package, just tell R that the data lives in a subfolder.* 
 
