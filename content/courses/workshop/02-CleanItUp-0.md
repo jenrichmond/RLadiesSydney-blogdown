@@ -12,9 +12,9 @@ type: docs
 weight: 2
 ---
 
-#RYouWithMe Unit 2 - Clean It Up
 
-![banner](/workshop/02-CleanItUp-0_files/clean-it-up-banner.jpg)
+
+![](/img/clean-it-up-banner.jpg)
 
 
 Welcome to the second unit of [RYouWithMe](/courses/workshop/_index/)! In Unit 2, we’re moving on to data cleaning! Trust us, it's more fun than housecleaning!

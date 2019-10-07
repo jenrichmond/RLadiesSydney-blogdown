@@ -32,20 +32,20 @@ When you entered your data in excel, you probably entered it in wide format. Dat
 In the wide example below, we have scores from participants who were tested twice (Time 1 and Time 2) after studying different lists of words under two different conditions (Condition 1 and Condition 2). 
 
 
-![](/post/2018-11-19-cleanitup_files/2_wideexample.png)
+![](/img/2_wideexample.png)
 
 
 In contrast, data in long format has all the observations in a single column and variables in separate columns. 
 
 
-![](/post/2018-11-19-cleanitup_files/1_longexample.png)
+![](/img/1_longexample.png)
 
 
 ### Should I could copy and paste_transpose the scores?
 
 No, no, no... this is not as hard as it looks. R employs cute monsters under the hood to `gather` your data from wide to long, and `spread` it from long to wide. All in a single line of code. 
 
-![](/post/2018-11-19-cleanitup_files/3_gather_spread_monsters.jpg)
+![](/img/3_gather_spread_monsters.jpg)
 
 Credit to [Allison Horst](https://twitter.com/Allison_Horst) for the CUTE art. 
 
@@ -58,7 +58,7 @@ In this lesson, we will use three different examples to illustrate how to use `g
 Each example is a little different, but in each case we can use `gather` and `spread` to do switch between different formats. We'll walk you through the process step by step, but the basic idea is shown graphically in this lovely animation made by [Garrick Aden-Buie](https://twitter.com/grrrck)
 
 
-![](/post/2018-11-19-cleanitup_files/tidyr-spread-gather.gif)
+![](/img/tidyr-spread-gather.gif)
 
 
 
@@ -68,7 +68,7 @@ Thanks to [Alison Hill](https://twitter.com/apreshill) for sharing this example 
 
 The dataframe on the left is in wide format; the performance of each baker in each spice test is listed across different columns. 
 
-![](/post/2018-11-19-cleanitup_files/4_spices.png)
+![](/img/4_spices.png)
 Image credit: [Alison Hill](https://twitter.com/apreshill)
 
 
@@ -86,7 +86,7 @@ You need to tell it ...
 -  value = name of column you want to contain data values (i.e. correct)
 -  column X:column Y = range of columns that you have and want to gather (cinnamon_1:nutmeg_3)
 
-![](/post/2018-11-19-cleanitup_files/5_gather_arguments.png)
+![](/img/5_gather_arguments.png)
 Image credit: [Alison Hill](https://twitter.com/apreshill)
 
 
@@ -101,7 +101,7 @@ You need to tell it ...
 -  key = name of column you want to spread across several columns 
 -  value = name of column that currently contains data values
 
-![](/post/2018-11-19-cleanitup_files/6_spread_arguments.png)
+![](/img/6_spread_arguments.png)
 Image credit: [Alison Hill](https://twitter.com/apreshill)
 
 
@@ -125,7 +125,7 @@ The raw sydneybeaches data is helpfully already in long format, but I have creat
 In the wide format, I've averaged bug levels for each year and the beach sites appear in separate columns. 
 
 
-![](/post/2018-11-19-cleanitup_files/8_wide_beaches.png)
+![](/img/8_wide_beaches.png)
 
 
 
@@ -133,7 +133,7 @@ In long format, the bug levels from each site are all in a single column and yea
 
 
 
-![](/post/2018-11-19-cleanitup_files/7_long_beaches.png)
+![](/img/7_long_beaches.png)
 
 
 
@@ -159,7 +159,7 @@ This sampling frames dataset comes from an experiment from [Dani Navarro's](http
 
 Here is what the data looks like in wide format. 
 
-![](/post/2018-11-19-cleanitup_files/frames_wide.png)
+![](/img/frames_wide.png)
 
 
 
@@ -181,7 +181,7 @@ Here is a link to the [frames data in wide format](/data/frames_wide.csv).
 
 Hopefully you ended up with a data frame that looks something like this.
 
-![](/post/2018-11-19-cleanitup_files/frameslong_step1.png)
+![](/img/frameslong_step1.png)
 
 
 
@@ -194,7 +194,7 @@ Go back to [Clean It Up 3](/post/2018/11/20/clean-it-up-3/) and brush up on the 
 - use `separate` to create two variables for the sample and item information
 - use `arrange` to make the dataframe look like this 
 
-![](/post/2018-11-19-cleanitup_files/separate_arrange.png)
+![](/img/separate_arrange.png)
 
 ### Your turn: Try your own data
 

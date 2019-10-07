@@ -18,15 +18,15 @@ Which beach is dirtiest? Which council does the best job of preventing beach con
 
 In this lesson, we’re going to try out the `janitor` package and use functions from `dplyr`, a package in the `tidyverse` that is designed for data wrangling to rename and select columns. We will also introduce the idea of the pipe %>%, which allows you to string commands together. 
 
-##Lesson Outcomes
+## Lesson Outcomes
 
 By the end of the lesson, you should:
 
-|     1.1. Understand how to clean up column names automatically using `clean_names()` or manually using `rename()`
-|     1.2  Know how to create subsets of data using `select()` 
-|     1.3. Be able to “pipe” `%>%`  data through a series of `dplyr` functions 
+- 1.1. Understand how to clean up column names automatically using `clean_names()` or manually using `rename()`
+- 1.2  Know how to create subsets of data using `select()` 
+- 1.3. Be able to “pipe” `%>%`  data through a series of `dplyr` functions 
 
-##1.1 Clean up your column names
+## 1.1 Clean up your column names
 
 When you enter data in Excel, you most often don’t think too much about what you call each column. After all, you just label them once and as long as they are meaningful to you, what does it matter if the column name is a long combination of CAPITALLETTERS, lowercaseletters, and numbers? 
 
@@ -34,7 +34,7 @@ When you are working with variables in R though, you need to type the name of ea
 
 #### An aside
 
-> Jenny Bryan has really [good advice about naming things](https://speakerdeck.com/jennybc/how-to-name-files?slide=27). She recommends that you using a labelling system (for files, but the same principles apply for variable names) that makes everything readable by both the computer and by a human (right-now you, but also future you, and anyone else who might interact with your data!). 
+Jenny Bryan has really [good advice about naming things](https://speakerdeck.com/jennybc/how-to-name-files?slide=27). She recommends that you using a labelling system (for files, but the same principles apply for variable names) that makes everything readable by both the computer and by a human (right-now you, but also future you, and anyone else who might interact with your data!). 
 
 Is there anything problematic about the column names in the sydneybeaches dataset?
 
@@ -54,7 +54,7 @@ Watch the video and then carry out the following steps:
 2. Clean up your column names using whichever method appeals to you most  
 3. Change the name of the bacteria column to something that is meaningful to you, though we recommend ‘beachbugs’ if you want to stay consistent with the lesson!
 
-##1.2 Selecting just a subset of variables to look at
+## 1.2 Selecting just a subset of variables to look at
 
 The beaches dataset is not big; there are a lot of observations but we are only looking at 8 variables. Often you will be dealing with many more variables than this and sometimes you want to simplify your life by only looking at a subset of those variables. The `select` function from the `dyplr` package is useful for just this situation. 
 
@@ -67,14 +67,14 @@ In this screencast, we’ll review:
 
 Watch the video and then create a new dataframe that contains only the site, council, and beachbugs columns.
 
-#1.3 Make your life easier with the pipe %>%
+## 1.3 Make your life easier with the pipe %>%
 
 There are lots of old school R users who find the pipe the most confusing aspect of the tidyverse. For beginners, though, the pipe can be really intuitive! So, consider this one of the few benefits of learning R now! 
 
 What is the pipe? The pipe is an operator from the `magrittr` package that allows you to take a dataset and “pipe” it through a series of functions in a step by step way. It looks like this: `%>%`
 
 
-![](/post/2018-11-19-cleanitup_files/clean1-pipe.png)
+![](/img/clean1-pipe.png)
 
 The pipe allows you string operations together in a way that is really powerful and accomplishes **a lot** with relatively few lines of code. 
 
@@ -93,9 +93,9 @@ Watch the video and then carry out the following steps:
       - Selected interesting columns  
 2. Write your cleanbeach data to a new .csv called “cleanbeaches.csv”
 
-#Now have a go with **your own data!**
+# Now have a go with **your own data!**
 
-First, read your data in! (Need a refresher? Check out Basic Basics Lesson 3 [here](/post/2018/11/05/basicbasics-3/)). 
+First, read your data in! (Need a refresher? Check out Basic Basics Lesson 3 [here](/courses/workshop/01-BasicBasics-3/). 
 
 Take a close look at your variable names.
 
@@ -111,6 +111,6 @@ Take a close look at your variable names.
 **Pipe it all together**
       - Can you use the pipe to string together a series of operations, starting with `read_csv` and finishing with `write_csv`, with a series of piped cleaning operations in the middle?? 
 
-Cleaned up columns? Check! Next up - [exploring what's in those rows](/post/2018/11/20/clean-it-up-2/)!
+Cleaned up columns? Check! Next up - [exploring what's in those rows](/courses/workshop/02-CleanItUp-2/)!
 
 

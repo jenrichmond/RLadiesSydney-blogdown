@@ -18,7 +18,7 @@ What if the data you are really interested in isn’t in your dataframe yet? Per
 
 In this lesson, we will continue to explore the sydneybeaches data, learning how to make new variables in using  `separate`, `unite`, `mutate` and other functions from `dpylr`. 
 
-##Lesson Outcomes
+## Lesson Outcomes
 By the end of the lesson, you should:  
 
 
@@ -26,7 +26,7 @@ By the end of the lesson, you should:
 * 3.2 Know how to use `mutate` to compute new variables (numeric and logical)
 * 3.3 Know how to pipe `filter`, `arrange`, `group_by`, and `mutate` together to accomplish a lot, with relatively few lines of code. 
 
-##3.1 Use separate and unite to create new variables 
+## 3.1 Use separate and unite to create new variables 
 
 We are going to cheat a little bit with the date column here. We will learn how to use the `lubridate` package eventually, but for now, we can capitalise on the fact that R thinks our date column contains characters to practice splitting a single variable into several variables using the `separate` function. 
 
@@ -42,7 +42,7 @@ Watch the video and then carry out the following steps:
 1. Split the date column into a day, month, and year column
 2. Combine the site and council columns into a single variable
 
-##3.2 Use `mutate` to compute new variables
+## 3.2 Use `mutate` to compute new variables
 
 Sometimes the data you are most interested are not in your dataframe yet, you need to computer them. The `mutate` function allows you to compute a new variable and add it to your dataframe. 
 
@@ -80,14 +80,14 @@ Watch the video and then create a new dataframe called cleanbeaches_new by pipin
 5. Group_by site
 6. Create a new column that contains a logical vector re whether each beachbug reading is higher than average, for each site
 
-##Now have a go with **your own data!**
+## Now have a go with **your own data!**
 
 - Choose a variable in character format and separate it into several columns 
 - Pick two character vectors, and combine them using the unite function 
 - Use mutate to transform your data, compute a numeric variable, and compute a new logical variable. 
 
 
-Next up - Clean It Up [Lesson 4: Wide to Long](/post/2018/11/28/clean-it-up-4/)
+Next up - Clean It Up [Lesson 4: Wide to Long](/courses/workshop/02-CleanItUp-4/)
 
 **Sydney-based R-Ladies** - share your successes and any challenges you've faced in the #ryouwithme_2_cleaning Slack channel! 
 
