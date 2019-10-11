@@ -34,7 +34,7 @@ hero_media = "purple_sails.png"
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
 [cta]
-  url = "/courses/workshop/_index/"
+  url = "https://rladiessydney.netlify.com/courses/workshop/"
   label = "RYouWithMe- start here!"
   icon_pack = "fas"
   icon = "rocket"
@@ -48,4 +48,4 @@ hero_media = "purple_sails.png"
   label = 'All [art](https://github.com/hadley/joy-of-fp) by [@allisonhorst](https://github.com/allisonhorst/stats-illustrations) [(CC-BY-SA)](https://creativecommons.org/licenses/by-sa/4.0/)'
 +++
 
-This site provides a resource for the Sydney chapter so that anyone giving a talk, presenting a tutorial, or just wanting to share something awesome can contribute. It's also where we archive information about our past [events](./events/) and links to the associated resources. The goal in putting this together is for everyone in the Sydney R-Ladies community to support each other, and to allow all members (whether they can make it to meetups or not) to feel part of and get something from the group. You can find out more about us - and how to contact us - on the [about](./about/) page, check out upcoming meetings on the [meetup](https://www.meetup.com/en-AU/rladies-sydney/) page, or browse the occasional blog [post](./post/) written by the Sydney R-Ladies. Best of all, you can follow us on [twitter](https://twitter.com/RLadiesSydney)!
+This site provides a resource for the Sydney chapter so that anyone giving a talk, presenting a tutorial, or just wanting to share something awesome can contribute. It's also where we archive information about our past [events](./events/) and links to the associated resources. The goal in putting this together is for everyone in the Sydney R-Ladies community to support each other, and to allow all members (whether they can make it to meetups or not) to feel part of and get something from the group. You can find out more about us - and how to contact us - on the [about](https://rladiessydney.netlify.com/authors/admin/) page, check out upcoming meetings on the [meetup](https://www.meetup.com/en-AU/rladies-sydney/) page, or browse the occasional blog [post](./post/) written by the Sydney R-Ladies. Best of all, you can follow us on [twitter](https://twitter.com/RLadiesSydney)!
