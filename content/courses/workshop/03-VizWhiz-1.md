@@ -18,16 +18,21 @@ Before we begin, a preamble...
 
 Until I^[Jen Richmond, R-Ladies Sydney co-founder and #RYouWithMe screencaster! (Twitter: @JenRichmondPhD)] started learning R about a year ago, I had only ever plotted averaged data. My plots looked like this...
 
-<img src="/post/2018-12-20-vizwhiz_files/figure1.jpg" width=75% align="center">
+
+
+![](/img/figure1.jpg)
 
 Or this….
 
-<img src="/post/2018-12-20-vizwhiz_files/figure2.jpg" width=50% align="center">
+![](/img/figure2.jpg)
+
+
 
 In 2016, I remember seeing [#barbarplots](https://www.kickstarter.com/projects/1474588473/barbarplots)
 t-shirts and tote bags at a conference, but back then I didn’t know that the figures were made in R. 
 
-<img src="/post/2018-12-20-vizwhiz_files/barplot_psa1.jpg" width=75% align="center">
+
+![](/img/barplot_psa1.jpg)
 
 > Check out this [video](https://ksr-video.imgix.net/projects/2453455/video-665338-h264_high.mp4) for more info about the #barbarplots kickstarter campaign. And learn how to [explode bar plots](/post/2018-12-20-vizwhiz_files/_Exploding_Barplot.gif) using code from [here](https://zenodo.org/record/574883#.XAUTspMzaRs).
 
@@ -35,7 +40,7 @@ t-shirts and tote bags at a conference, but back then I didn’t know that the f
 
 Bar plots with standard error bars obviously have their limitations, but what is the alternative? In this lesson, we’re going to learn about how to plot raw data using `ggplot2`. As in prior units, we'll be using the sydneybeaches dataset, so be sure to have that on hand!
 
-##Lesson Outcomes
+## Lesson Outcomes
 
 By the end of this lesson, you should:
 
@@ -45,7 +50,7 @@ By the end of this lesson, you should:
 * 1.4 Be able to combine `dpylr` functions like `filter` with `ggplot`
 * 1.5 Be able to use `ggsave` to export plots 
 
-##1.1 Plotting bug levels by year
+## 1.1 Plotting bug levels by year
 
 If the councils that look after our beaches are doing their job,  beaches should be less contaminated than they were 5 years ago, right? Let's plot bug levels over time and see whether things seem to be getting better. 
 
@@ -60,7 +65,7 @@ In this screencast, we’ll review:
 
 Here's the plot for reference:
 
-<img src="/post/2018-12-20-vizwhiz_files/bugsbyyear_jitter.png" width=60% align="center">
+![](/img/bugsbyyear_jitter.png)
 
 Watch the video and then carry out the following steps:
 
@@ -69,7 +74,7 @@ Watch the video and then carry out the following steps:
 3. Check out the `ggbeeswarm` [vignette](https://github.com/eclarke/ggbeeswarm) and try to make your quasirandom plot “smiley” or “frowny”
 4.  Try `geom_beeswarm` too!
 
-##1.2 Using colour to plot bug levels by site
+## 1.2 Using colour to plot bug levels by site
 
 There doesn't seem to be an obvious improvement in bug levels in the past 5 years. I wonder whether some beaches are just more variable than others. Let's use colour to differentiate between different sites. 
 
@@ -87,14 +92,15 @@ In this screencast, we’ll review:
 
 Here's the plot for reference:
 
-<img src="/post/2018-12-20-vizwhiz_files/bugsbybeach_coloryear.png" width=60% align="center">
+
+![](/img/bugsbybeach_coloryear.png)
 
 Watch the video and then carry out the following steps:
 
 1.  Use `geom_jitter` to plot bug levels for each site, differentiating between values from 2013-2018 with different coloured points 
 2. Try colouring the points by another variable (perhaps council or month). How does the visualisation change?
 
-##1.3 Using facet_wrap() to plot sites separately
+## 1.3 Using facet_wrap() to plot sites separately
 
 Using colour is one way to differentiate between data points associated with different variables. Alternatively, you can group the data into different mini-plots using facet_wrap. 
 In this screencast, we’ll review:
@@ -108,6 +114,8 @@ In this screencast, we’ll review:
 Here's the plot for reference:
 
 <img src="/post/2018-12-20-vizwhiz_files/bugsbybeach_facetsite_all.png" width=80% align="center">
+
+![](/img/bugsbybeach_facetsite_all.png)
 
 Watch the video and perform the following steps:
 
@@ -129,6 +137,8 @@ In this screencast, we’ll review:
 Here's the plot for reference:
 
 <img src="/post/2018-12-20-vizwhiz_files/bondicoogee.jpeg" width=50% align="center">
+
+![](/img/bondicoogee.jpeg)
 
 Watch the video and perform the following steps:
 
