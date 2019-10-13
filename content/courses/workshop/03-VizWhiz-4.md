@@ -19,7 +19,7 @@ weight: 3
 
 Everyone (even Hadley Wickham!) googles how to make their ggplot look like how they want, every.... single.... time. In this lesson, we are going to show you how to use themes, colours, and labels to get most of the way there. 
 
-##Lesson Outcomes
+## Lesson Outcomes
 
 By the end of the lesson, you should:
 
@@ -46,7 +46,8 @@ In this screencast, we’ll review:
 
 Here's the plot for reference:
 
-<img src="/post/2018-12-20-vizwhiz_files/scatter_classic.png" width=60% align="center">
+
+![](/img/scatter_classic.png)
 
 Watch the video and then carry out the following steps:
 
@@ -71,7 +72,7 @@ In this screencast, we’ll review:
 
 Here's the plot for reference:
 
-<img src="/post/2018-12-20-vizwhiz_files/scatter_colour2.png" width=60% align="center">
+![](/img/scatter_colour2.png)
 
 Watch the video and then carry out the following steps:
 
@@ -99,7 +100,8 @@ In this screencast, we’ll review:
  
 Here's the plot for reference:
 
-<img src="/post/2018-12-20-vizwhiz_files/beaches_labs.png" width=60% align="center">
+
+![](/img/beaches_labs.png)
 
 Watch the video and then carry out the following steps:
 
@@ -129,7 +131,7 @@ __P.P.P.S.__ I don't know how to move the caption! If you work it out, let me kn
 
 Pick your favourite figure from your own work and try to replicate it in R. Don't forget that __EVERYONE googles how to do EVERYTHING__. Also make sure to add `ggsave` to share your plots - on Twitter (use the hashtag #vizwhiz and tag us @RLadiesSydney) or, for Sydney-based R-Ladies, on Slack in the #ryouwithme_3_vizwhiz channel. 
 
-Next up, a bonus lesson - [adding GIFs to plots](/post/2018/12/20/vizwhiz-5/)! 
+Next up, a bonus lesson - [adding GIFs to plots](https://rladiessydney.netlify.com/courses/workshop/03-vizwhiz-5/)! 
 
 
 

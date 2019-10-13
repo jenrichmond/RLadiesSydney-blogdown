@@ -86,6 +86,6 @@ image_write(animation, "beachwiz.gif")
 beep()
 ```
 
-__Voilà! [GIF-enhanced ggplot!](/post/2018-12-20-vizwhiz_files/beachwiz.gif)__
+__Voilà! [GIF-enhanced ggplot!](/img/beachwiz.gif)__
 
 Try it yourself! We'd love to see your animated awesomeness! Share it on Twitter using the #vizwhiz hashtag and tag us @RLadiesSydney. For those of you R-ladies in Sydney, per usual, share your success (and frustration) on the #ryouwithme_3_vizwhiz channel on Slack. 

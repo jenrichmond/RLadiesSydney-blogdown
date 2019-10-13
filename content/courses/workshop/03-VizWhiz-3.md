@@ -12,9 +12,9 @@ type: docs
 weight: 3
 ---
 
-The `ggplot` fanciness we covered in [Lesson 1](/post/2018/12/20/vizwhiz-1/) and [Lesson 2](/post/2018/12/20/vizwhiz-2/) is great, but sometimes your boss/grant agency/publication outlet insists on a bar or column graph. Or perhaps you simply need to visualise two continuous variables. In this lesson, we will show you how to plot bar and column graphs with error bars and how to plot a scatter plot. 
+The `ggplot` fanciness we covered in [Lesson 1](https://rladiessydney.netlify.com/courses/workshop/03-vizwhiz-1/) and [Lesson 2](https://rladiessydney.netlify.com/courses/workshop/03-vizwhiz-2/) is great, but sometimes your boss/grant agency/publication outlet insists on a bar or column graph. Or perhaps you simply need to visualise two continuous variables. In this lesson, we will show you how to plot bar and column graphs with error bars and how to plot a scatter plot. 
 
-##Lesson Outcomes
+## Lesson Outcomes
 
 By the end of the lesson, you should:
 
@@ -42,7 +42,8 @@ In this screencast, we’ll review:
 
 Here's the plot for reference:
 
-<img src="/post/2018-12-20-vizwhiz_files/col_meanbugs.png" width=60% align="center">
+
+![](/img/col_meanbugs.png)
 
 Watch the video and then carry out the following steps:
 
@@ -65,7 +66,7 @@ In this screencast, we’ll review:
 
 Here's the plot for reference:
 
-<img src="/post/2018-12-20-vizwhiz_files/col_meanbugs_error.png" width=60% align="center">
+![](/img/col_meanbugs_error.png)
 
 Watch the video and then carry out the following steps:
 
@@ -76,7 +77,7 @@ Watch the video and then carry out the following steps:
 
 Sometimes you want to visualise the relationship between two continuous variables using a scatterplot. Our original beachbugs dataset doesn't include any interesting variables that might be correlated with the bacteria levels, so we have pulled in some weather data to see whether bacteria levels might be related to rainfall or temperature, or some combination of the two. 
 
-You can download the rain_temp_beachbugs.csv data [here](/data/rain_temp_beachbugs.csv) 
+You can download the rain_temp_beachbugs.csv data [here](/csv_data/rain_temp_beachbugs.csv) 
 
 In this screencast, we’ll review:
 
@@ -91,11 +92,11 @@ In this screencast, we’ll review:
 
 Here's the plot for reference:
 
-<img src="/post/2018-12-20-vizwhiz_files/scatter_rain_temp.png" width=60% align="center">
+![](/img/scatter_rain_temp.png)
 
 Watch the video and then carry out the following steps:
 
-1. use `read_csv` and `here` to read the rain_temp data into RStudio (need help? revisit [Unit 1 Basic Basics Lesson 3: Loading Data](/post/2018/11/05/basicbasics-3/) 
+1. use `read_csv` and `here` to read the rain_temp data into RStudio (need help? revisit [Unit 1 Basic Basics Lesson 3: Loading Data](https://rladiessydney.netlify.com/courses/workshop/01-basicbasics-3/) 
 2. use `geom_point` to plot the relation between rainfall and beach bugs 
 3. `filter` the data for values more than 500 and add a `geom_smooth` layer to see a regression line
 4. colour the points by the temperature variable
@@ -106,4 +107,4 @@ Are bar plots your bread and butter? Or maybe you primarily work with bivariate 
 
 Sydney-based RLadies are encouraged to share your successes, frustrations, and of course your plots, in our slack channel, #ryouwithme_3_vizwhiz. 
 
-Now that you've got the structural components of several of the most popular plots down, it's time to learn how to customise the appearance of those plots! Onward to [Lesson 4](/post/2018/12/20/vizwhiz-4/)!
+Now that you've got the structural components of several of the most popular plots down, it's time to learn how to customise the appearance of those plots! Onward to [Lesson 4](https://rladiessydney.netlify.com/courses/workshop/03-vizwhiz-4/)!
