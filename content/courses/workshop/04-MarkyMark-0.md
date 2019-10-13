@@ -14,7 +14,7 @@ weight: 4
 
 # RYouWithMe Unit 4: MarkyMark
 
-![](/workshop/04-MarkyMark-0_files/markymark-banner.jpg)
+![](/img/markymark-banner.jpg)
 
 Welcome to the fourth unit of [RYouWithMe](/courses/workshop/_index/)! In Unit 4, we’re tackling the one and only R Markdown!
 

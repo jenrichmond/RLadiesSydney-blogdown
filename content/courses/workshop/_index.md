@@ -27,13 +27,13 @@ In talking to two other R-Ladies Sydney co-founders, Jen Richmond and Danielle N
 
 The result: __RYouWithMe__ - a series of online learning resources for using R - designed by us, for us. The series is oriented towards R beginners and aims to provide a solid foundation of R skills. That way, future R-Ladies Sydney activities can be accessible to more of our members. Frustration no more! (or at least minimised!)
 
-![](/post/2018-11-01-ryouwithme_files/RYouWithMe.jpg)
+![](/img/RYouWithMe.jpg)
 
 We have four ‘units’ planned:  
-1. [Basic Basics](/courses/workshop/01_BasicBasics-0/)  
-2. [Clean it up](/courses/workshop/02_CleanItUp-0/) (aka Data Wrangling)  
-3. [VizWiz](/courses/workshop/03_VizWhiz-0/) (aka Visualisation Wizardry)  
-4. [MarkyMark](/courses/workshop/04_MarkyMark-0/) (aka RMarkdown reports)  
+1. [Basic Basics](https://rladiessydney.netlify.com/courses/workshop/01-basicbasics-0/)  
+2. [Clean it up](https://rladiessydney.netlify.com/courses/workshop/02-cleanitup-0/) (aka Data Wrangling)  
+3. [VizWiz](https://rladiessydney.netlify.com/courses/workshop/03-vizwhiz-0/) (aka Visualisation Wizardry)  
+4. [MarkyMark](https://rladiessydney.netlify.com/courses/workshop/04-markymark-0/) (aka RMarkdown reports)  
 
 
 You’ll be able to access all of the units and lessons within them here on the R-Ladies Sydney website. The series builds skills cumulatively - so we encourage you to ‘start from the start’. For later units, we’ll provide a brief summary of where you should be up to before diving in.

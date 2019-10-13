@@ -14,7 +14,7 @@ weight: 3
 
 When you want to capture the distribution of your data in a plot, without getting too far away from the raw data, box and whisker plots, violin plots, and histograms are likely to be useful. In this lesson, we're tackling how to creat these plots using various `geom` commands!
 
-##Lesson Outcomes
+## Lesson Outcomes
 
 By the end of the lesson, you should:
 
@@ -23,13 +23,14 @@ By the end of the lesson, you should:
 *  2.3 Be able to layer more than one geom to gain extra insight about the distribution of your data
 
 
-#2.1 Boxes and violins
+# 2.1 Boxes and violins
 
 I don't think I have used a box plot since primary school. In fact, I had to google what the lines on the box represent. Definitely check out the ggplot documentation [here](https://ggplot2.tidyverse.org/reference/geom_boxplot.html) and ignore me when I try and convince you in the video that the interquartile range represents 75% of the data; it's definitely 50%. 
 
 Boxplots are so 1980 anyway; boxplots are out and violin plots are in. 
 
-<img src="/post/2018-12-20-vizwhiz_files/violin_plots_2x.png" width=75% align="center">
+
+![](/img/violin_plots_2x.png)
 
 Image credit: https://xkcd.com/1967/
 
@@ -47,7 +48,9 @@ In this screencast, we’ll review:
 
 Here's the plot for reference:
 
-<img src="/post/2018-12-20-vizwhiz_files/log_violin_buggier.png" width=75% align="center">
+
+![](/img/log_violin_buggier.png)
+
 
 Watch the video and then carry out the following steps:
 
@@ -59,7 +62,7 @@ Watch the video and then carry out the following steps:
 
 __Helpful hint:__ You can find ggplot documentation about violin plots [here](https://ggplot2.tidyverse.org/reference/geom_violin.html)
 
-#2.2 Histograms
+# 2.2 Histograms
 
 Often the quickest way to get an idea of whether your data is normally distributed is to plot a histogram. Let's learn how to do that. 
 
@@ -76,7 +79,8 @@ In this screencast, we’ll review:
 
 Here's the plot for reference:
 
-<img src="/post/2018-12-20-vizwhiz_files/clovelly_histogram.png" width=40% align="center">
+
+![](/img/clovelly_histogram.png)
 
 Watch the video and then carry out the following steps:
 
@@ -84,7 +88,7 @@ Watch the video and then carry out the following steps:
 2. Use `geom_histogram` to plot log-transformed buglevels for Clovelly in 2018
 3. Compare this plot to one that uses the raw rather than log-transformed data. What is the most appropriate bin_width for this raw data? 
 
-#2.3 Combination plots
+# 2.3 Combination plots
 
 Each time you add a `+` to a ggplot, you are adding a layer, and there is no reason why those layers can't be extra geoms! 
 
@@ -98,20 +102,21 @@ In this screencast, we’ll review:
 
 Here's the plot for reference:
 
-<img src="/post/2018-12-20-vizwhiz_files/boxcolour_year.png" width=75% align="center">
+
+![](/img/boxcolour_year.png)
 
 Watch the video and then carry out the following steps:
 
 1. Filter for days that are buggier than average and then plot the log transformed beach bugs values for each site by combining `geom_boxplot` and `geom_point`
 2. Use `geom_violin` to plot the log transformed beach bugs values and layer geom_points; this time try colouring by council
 
-#ggplot Inspo 
+# ggplot Inspo 
 
 Check out the results of a google image search for 'ggplot violin' [here](https://www.google.com/search?biw=1234&bih=575&tbm=isch&sa=1&ei=D_gSXJvzIc6v9QPxx7JQ&q=ggplot+violin&oq=ggplot+violin&gs_l=img.3..35i39j0l2j0i24l7.8194.9325..9695...0.0..0.474.1983.2-3j2j1......1....1..gws-wiz-img.......0i67j0i8i30j0i10i24.h9bU1bWS70o) to get inspired!
 
-Now, apply that inspiration to your own data! Don't forget `ggsave()` from [VizW(h)iz 1](/post/2018/12/20/vizwhiz-1/) so you can show others your fantastic outputs!
+Now, apply that inspiration to your own data! Don't forget `ggsave()` from [VizW(h)iz 1](https://rladiessydney.netlify.com/courses/workshop/03-vizwhiz-1/) so you can show others your fantastic outputs!
 
 As per usual, Sydney-based R-Ladies are encouraged to share (and vent) at #ryouwithme_3_vizwhiz!
 
-Now, we all know there are times when you need (read: are forced) to create boring bar or column plots! That's what Lesson 3 is for! We also cover scatterplots, so all is not for naught! Head on to [Lesson 3](/post/2018/12/20/vizwhiz-3/)!
+Now, we all know there are times when you need (read: are forced) to create boring bar or column plots! That's what Lesson 3 is for! We also cover scatterplots, so all is not for naught! Head on to [Lesson 3](https://rladiessydney.netlify.com/courses/workshop/03-vizwhiz-3/)!
 

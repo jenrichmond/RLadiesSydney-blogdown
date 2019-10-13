@@ -33,7 +33,7 @@ In addition to Dani's presentation, the workshop builds on contributions from Je
 
 Credit goes to Jen Richmond for the workshop concept...
 
-![](/post/2018-08-21-little-miss-tidyverse_files/little-miss-tidyverse.png)
+![](/img/little-miss-tidyverse.png)
 
 
 

@@ -12,10 +12,10 @@ type: docs
 weight: 3
 ---
 
-#RYouWithMe Unit 3 - VizW(h)iz
+# RYouWithMe Unit 3 - VizW(h)iz
 
 
-![](/post/2018-12-20-vizwhiz_files/VizWizBanner.jpg)
+![](/img/VizWizBanner.jpg)
 
 Welcome to the third unit of [RYouWithMe](/courses/workshop/_index/)! In Unit 3, we’re tackling data visualisation! 
 
