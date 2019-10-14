@@ -35,7 +35,6 @@ In this screencast, we’ll cover:
   * How to insert code chunks 
   * How to control what appears in your document when you knit 
 
-[EMBED VIDEO 2 HERE - https://youtu.be/zuehNWUPRbM]
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zuehNWUPRbM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
