@@ -31,7 +31,6 @@ In this screencast, we’ll cover:
   * How to knit to html, pdf, and word
   * How to share your report via RPubs
 
-[EMBED VIDEO 3 HERE - https://youtu.be/UDSpxstfUEA]
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UDSpxstfUEA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

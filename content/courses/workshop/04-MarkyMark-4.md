@@ -29,7 +29,6 @@ In this screencast, we’ll cover:
 
   * How to use the R Markdown template menu to knit all kinds of documents 
 
-[EMBED VIDEO 4 HERE - https://youtu.be/sMpOdte1sYA]
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sMpOdte1sYA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
