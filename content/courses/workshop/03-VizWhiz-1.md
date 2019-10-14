@@ -113,7 +113,6 @@ In this screencast, we’ll review:
   
 Here's the plot for reference:
 
-<img src="/post/2018-12-20-vizwhiz_files/bugsbybeach_facetsite_all.png" width=80% align="center">
 
 ![](/img/bugsbybeach_facetsite_all.png)
 
@@ -124,7 +123,7 @@ Watch the video and perform the following steps:
 
 ## 1.4 Putting it all together (dplyr  + ggplot)
 
-What if you only want to compare a couple of sites? Or restrict the range of scores to exclude obvious outliers? You can combine dyplyr functions like `filter` with `ggplot` using the pipe %>%. (The pipe was covered in #RYouWithMe Unit Clean It Up Lesson 1! Need a refresher? Click [here](/post/2018/11/20/clean-it-up-1/)!)
+What if you only want to compare a couple of sites? Or restrict the range of scores to exclude obvious outliers? You can combine dyplyr functions like `filter` with `ggplot` using the pipe %>%. (The pipe was covered in #RYouWithMe Unit Clean It Up Lesson 1! Need a refresher? Click [here](https://rladiessydney.netlify.com/courses/workshop/02-cleanitup-1/)!)
 
 In this screencast, we’ll review:
 
@@ -136,7 +135,6 @@ In this screencast, we’ll review:
 
 Here's the plot for reference:
 
-<img src="/post/2018-12-20-vizwhiz_files/bondicoogee.jpeg" width=50% align="center">
 
 ![](/img/bondicoogee.jpeg)
 
@@ -177,7 +175,7 @@ Steps to plotting your own raw data:
 4. Try out `geom_point`, `geom_jitter`, or `geom_quasirandom` and see which one makes the most sense for your data
 5. Export using `ggsave` 
 
-On to [Lesson 2](/post/2018/12/20/vizwhiz-2/)
+On to [Lesson 2](https://rladiessydney.netlify.com/courses/workshop/03-vizwhiz-2/)
 
 If you are one of our Sydney-based RLadies, share your success (and /or your frustration!) in our Slack channel #ryouwithme_3_vizwhiz!
 

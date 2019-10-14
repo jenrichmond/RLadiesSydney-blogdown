@@ -37,4 +37,4 @@ It turns out this debate cannot be won (or lost). True, wizards are classically 
 
 To bridge this great divide, we find ourselves with a compromise: VizW(h)iz!!
 
-
+Lets start by [visualising raw data](https://rladiessydney.netlify.com/courses/workshop/03-vizwhiz-1/)
