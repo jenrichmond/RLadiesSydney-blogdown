@@ -1,4 +1,4 @@
-# Work in progress RLadies Sydney blogdown site
+# RLadies Sydney blogdown site
 
 
 <!-- Markdown snippet -->
