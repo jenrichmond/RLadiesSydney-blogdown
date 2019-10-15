@@ -138,7 +138,7 @@ In long format, the bug levels from each site are all in a single column and yea
 
 
 #### Your turn: Challenge 2
-Here is a link to the [beaches summary in wide format](/data/beachbugs_wide.csv)
+Here is a link to the [beaches summary in wide format](/data/csv/beachbugs_wide.csv)
 
 - download the data and put it in your data folder
 - open a new script
