@@ -17,6 +17,7 @@ image:
 projects: []
 ---
 
+![](/img/shutupandcode.jpg)
 
 
 Learning something new on your own is hard! So lets meet up and learn new R things together.

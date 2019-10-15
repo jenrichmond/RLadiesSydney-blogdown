@@ -17,5 +17,7 @@ image:
 projects: []
 ---
 
-Find a link to our [RYouWithMe online beginner modules here](/courses/workshop/_index/)
+![](/img/RYouWithMe.jpg)
+
+Find a link to our [RYouWithMe online beginner modules here](https://rladiessydney.org/courses/workshop/)
 
