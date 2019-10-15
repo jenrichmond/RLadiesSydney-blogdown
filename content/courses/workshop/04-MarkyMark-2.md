@@ -41,7 +41,7 @@ In this screencast, we’ll cover:
 Watch the video and then carry out the following steps:
 
 1. Insert chunks to load the tidyverse package and read in the sydneybeaches data
-2. Insert chunks to recreate your favourite plot from [VizW(h)iz](https://rladiessydney.org/post/2018/12/20/vizwhiz/)
+2. Insert chunks to recreate your favourite plot from [VizW(h)iz](https://rladiessydney.org/courses/workshop/03-vizwhiz-0/)
 3. Knit your document, changing the chunk settings so that only the code and output appear in your document. 
 
 Sydney-based R-Ladies, head on over to the #ryouwithme_4_markymark channel in Slack to share your code chunk successes (or woes!).

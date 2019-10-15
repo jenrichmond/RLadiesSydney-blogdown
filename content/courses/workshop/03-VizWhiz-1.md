@@ -34,7 +34,7 @@ t-shirts and tote bags at a conference, but back then I didn’t know that the f
 
 ![](/img/barplot_psa1.jpg)
 
-> Check out this [video](https://ksr-video.imgix.net/projects/2453455/video-665338-h264_high.mp4) for more info about the #barbarplots kickstarter campaign. And learn how to [explode bar plots](/post/2018-12-20-vizwhiz_files/_Exploding_Barplot.gif) using code from [here](https://zenodo.org/record/574883#.XAUTspMzaRs).
+> Check out this [video](https://ksr-video.imgix.net/projects/2453455/video-665338-h264_high.mp4) for more info about the #barbarplots kickstarter campaign. And learn how to [explode bar plots](/img/_Exploding_Barplot.gif) using code from [here](https://zenodo.org/record/574883#.XAUTspMzaRs).
 
 ### So, if not bar plots, then what? 
 
@@ -169,7 +169,7 @@ The next step is to plot your own data as raw values.
 
 Steps to plotting your own raw data: 
 
-1. Remember that ggplot only likes "long" data, so if you have observations across several columns, go back to [Clean it up Lesson 4](https://rladiessydney.org/post/2018/11/28/clean-it-up-4/) and brush up on how to convert your wide data into long format 
+1. Remember that ggplot only likes "long" data, so if you have observations across several columns, go back to [Clean it up Lesson 4](https://rladiessydney.org/courses/workshop/02-cleanitup-4/) and brush up on how to convert your wide data into long format 
 2. Pick a categorical variable for your x axis
 3. Pick a continuous variable for your y axis
 4. Try out `geom_point`, `geom_jitter`, or `geom_quasirandom` and see which one makes the most sense for your data

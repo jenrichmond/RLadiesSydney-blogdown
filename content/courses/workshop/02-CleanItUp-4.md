@@ -108,7 +108,7 @@ Image credit: [Alison Hill](https://twitter.com/apreshill)
 
 #### Your turn: Challenge 1 
 
-Here is a link to the [bakers data in wide format](/data/bakers_wide.csv).
+Here is a link to the [bakers data in wide format](https://github.com/jenrichmond/RLadiesSydney-blogdown/blob/master/csv/beachbugs_wide.csv).
 
 - download the data and put it in your data folder
 - open a new script
@@ -138,7 +138,7 @@ In long format, the bug levels from each site are all in a single column and yea
 
 
 #### Your turn: Challenge 2
-Here is a link to the [beaches summary in wide format](/data/csv/beachbugs_wide.csv)
+Here is a link to the [beaches summary in wide format](https://github.com/jenrichmond/RLadiesSydney-blogdown/blob/master/csv/beachbugs_wide.csv)
 
 - download the data and put it in your data folder
 - open a new script
@@ -168,12 +168,12 @@ Each row contains all of the data from a single participant and the column repre
 
 #### Your turn: Challenge 3.1 
 
-Here is a link to the [frames data in wide format](/data/frames_wide.csv).
+Here is a link to the [frames data in wide format](https://github.com/jenrichmond/RLadiesSydney-blogdown/blob/master/csv/frames_wide.csv).
 
 - download the data and put it in your data folder
 - open a new script
 - load the tidyverse and here packages
-- use `here` and `read_csv` to read the frames data (go back to [Basic Basics](/post/2018/11/05/basicbasics/) if you've forgotten how this works)
+- use `here` and `read_csv` to read the frames data (go back to [Basic Basics](https://rladiessydney.org/courses/workshop/01-basicbasics-0/) if you've forgotten how this works)
 - use `gather` to convert the frames data from wide to long
 
 
@@ -189,7 +189,7 @@ Unfortunately though, your work is not done. See how we now have all the ratings
 
 #### Your turn: Challenge 3.2
 
-Go back to [Clean It Up 3](/post/2018/11/20/clean-it-up-3/) and brush up on the `separate` function. 
+Go back to [Clean It Up 3](https://rladiessydney.org/courses/workshop/02-cleanitup-3/) and brush up on the `separate` function. 
 
 - use `separate` to create two variables for the sample and item information
 - use `arrange` to make the dataframe look like this 

@@ -14,7 +14,7 @@ weight: 1
 
 # Getting data into RStudio
 
-In this, the third lesson to [Basic Basics](/post/2018/11/05/basicbasics/), we're going to review how to get data into RStudio, using a specially selected data file that we'll continue to use for many of the RYouWithMe lessons.
+In this, the third lesson to [Basic Basics](https://rladiessydney.org/courses/workshop/01-basicbasics-0/), we're going to review how to get data into RStudio, using a specially selected data file that we'll continue to use for many of the RYouWithMe lessons.
 
 ## Lesson Outcomes
 By the end of the lesson, you should:

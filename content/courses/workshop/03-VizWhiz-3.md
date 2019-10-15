@@ -77,7 +77,7 @@ Watch the video and then carry out the following steps:
 
 Sometimes you want to visualise the relationship between two continuous variables using a scatterplot. Our original beachbugs dataset doesn't include any interesting variables that might be correlated with the bacteria levels, so we have pulled in some weather data to see whether bacteria levels might be related to rainfall or temperature, or some combination of the two. 
 
-You can download the rain_temp_beachbugs.csv data [here](/csv_data/rain_temp_beachbugs.csv) 
+You can download the rain_temp_beachbugs.csv data [here](https://github.com/jenrichmond/RLadiesSydney-blogdown/blob/master/csv/rain_temp_beachbugs.csv) 
 
 In this screencast, we’ll review:
 

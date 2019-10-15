@@ -14,7 +14,7 @@ weight: 1
 
 # Installing and loading packages
 
-For the second lesson in [Basic Basics](/post/2018/11/05/basicbasics/) we're going to talk about *packages*. You likely won't get very far in R without packages. Sure, you could write all the functions you need for your analysis yourself if you wanted, but the great thing about the [#rstats](https://twitter.com/hashtag/rstats?src=hash) community is that people write code, bundle it into packages, and then give them away FOR FREE because they are so terribly nice. Once you are an #rstats expert, you can create your own packages and give back, but for now let's learn what packages are and how to use them. 
+For the second lesson in [Basic Basics](https://rladiessydney.org/courses/workshop/01-basicbasics-0/) we're going to talk about *packages*. You likely won't get very far in R without packages. Sure, you could write all the functions you need for your analysis yourself if you wanted, but the great thing about the [#rstats](https://twitter.com/hashtag/rstats?src=hash) community is that people write code, bundle it into packages, and then give them away FOR FREE because they are so terribly nice. Once you are an #rstats expert, you can create your own packages and give back, but for now let's learn what packages are and how to use them. 
 
 ## Lesson Outcomes
 

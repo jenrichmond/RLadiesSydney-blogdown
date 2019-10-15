@@ -27,7 +27,7 @@ Your wish is our command, Lisa! [pun intended!]
 </center>
 
 <!--
-<img src="/post/2018-12-20-vizwhiz_files/beachwiz.gif" width=60% align="center">
+<img src="/img/beachwiz.gif" width=60% align="center">
 -->
 
 
