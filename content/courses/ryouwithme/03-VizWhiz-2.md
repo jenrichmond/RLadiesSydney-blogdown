@@ -1,15 +1,15 @@
 ---
 date: "2019-05-05T00:00:00+01:00"
 draft: false
-linktitle: ""
+linktitle: "VizWhiz 2"
 menu:
-  workshop:
+  ryouwithme:
     parent: VizWhiz
     weight: 3
 title: VizWhiz 2
 toc: true
 type: docs
-weight: 3
+weight: 4
 ---
 
 When you want to capture the distribution of your data in a plot, without getting too far away from the raw data, box and whisker plots, violin plots, and histograms are likely to be useful. In this lesson, we're tackling how to creat these plots using various `geom` commands!

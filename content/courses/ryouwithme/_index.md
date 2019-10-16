@@ -2,14 +2,14 @@
 date: "2018-09-09T00:00:00Z"
 draft: false
 lastmod: "2018-09-09T00:00:00Z"
-linktitle: ""
+linktitle: "About RYouWithMe"
 menu:
-  example:
-    name: What is RYouWithMe? 
+  ryouwithme:
+    name: About RYouWithMe
     weight: 1
 summary: A series of online modules designed by beginners for beginners. Learn about how the RYouWithMe program came about and how to get started.
-title: "RYouWithMe"
-toc: true
+title: "What is RYouWithMe?"
+toc: yes
 type: docs
 weight: 1
 ---
@@ -30,10 +30,10 @@ The result: __RYouWithMe__ - a series of online learning resources for using R -
 ![](/img/RYouWithMe.jpg)
 
 We have four ‘units’ planned:  
-1. [Basic Basics](https://rladiessydney.netlify.com/courses/workshop/01-basicbasics-0/)  
-2. [Clean it up](https://rladiessydney.netlify.com/courses/workshop/02-cleanitup-0/) (aka Data Wrangling)  
-3. [VizWiz](https://rladiessydney.netlify.com/courses/workshop/03-vizwhiz-0/) (aka Visualisation Wizardry)  
-4. [MarkyMark](https://rladiessydney.netlify.com/courses/workshop/04-markymark-0/) (aka RMarkdown reports)  
+1. [Basic Basics](./01-basicbasics-0/)  
+2. [Clean it up](./02-cleanitup-0/) (aka Data Wrangling)  
+3. [VizWiz](./03-vizwhiz-0/) (aka Visualisation Wizardry)  
+4. [MarkyMark](./04-markymark-0/) (aka RMarkdown reports)  
 
 
 You’ll be able to access all of the units and lessons within them here on the R-Ladies Sydney website. The series builds skills cumulatively - so we encourage you to ‘start from the start’. For later units, we’ll provide a brief summary of where you should be up to before diving in.
@@ -103,7 +103,7 @@ __Jen:__ Apply what you are learning to your own data. It is all very well to fo
 
 *__Fantastic! Thank you, Jen and Danielle - I’m sure I speak on behalf of the rest of R-Ladies Sydney when I say that your insights are invaluable!__*
 
-#Join us!
+# Join us!
 
 So, RYouWithMe? I certainly hope so! Basic Basics will launch 4 November!
 
@@ -117,7 +117,7 @@ Thoughts? Ideas for units? Want to get involved as a teacher? Email us at [rladi
 
 
 
-###A coda
+# A coda
 
 In the spirit of celebrating successes, *I created and formatted this post in a R-Markdown file!* (of course, under the tutelage of Jen and Danielle)! Yes, there was at least one ‘chuck laptop out window’ moment, but I got through it - and thankfully my laptop is still intact.
 

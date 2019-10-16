@@ -1,15 +1,15 @@
 ---
 date: "2019-05-05T00:00:00+01:00"
 draft: false
-linktitle: ""
+linktitle: "VizWhiz 3"
 menu:
-  workshop:
+  ryouwithme:
     parent: VizWhiz
     weight: 4
 title: VizWhiz 3
 toc: true
 type: docs
-weight: 3
+weight: 4
 ---
 
 The `ggplot` fanciness we covered in [Lesson 1](https://rladiessydney.netlify.com/courses/workshop/03-vizwhiz-1/) and [Lesson 2](https://rladiessydney.netlify.com/courses/workshop/03-vizwhiz-2/) is great, but sometimes your boss/grant agency/publication outlet insists on a bar or column graph. Or perhaps you simply need to visualise two continuous variables. In this lesson, we will show you how to plot bar and column graphs with error bars and how to plot a scatter plot. 

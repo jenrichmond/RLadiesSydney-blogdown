@@ -1,15 +1,15 @@
 ---
 date: "2019-05-05T00:00:00+01:00"
 draft: false
-linktitle: ""
+linktitle: "BasicBasics 3"
 menu:
-  workshop:
-    parent: BasicBasic
+  ryouwithme:
+    parent: BasicBasics
     weight: 4
-title: BasicBasic 3
+title: BasicBasics 3
 toc: true
 type: docs
-weight: 1
+weight: 2
 ---
 
 # Getting data into RStudio

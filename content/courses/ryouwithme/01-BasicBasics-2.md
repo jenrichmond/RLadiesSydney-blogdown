@@ -1,15 +1,15 @@
 ---
 date: "2019-05-05T00:00:00+01:00"
 draft: false
-linktitle: ""
+linktitle: "BasicBasics 2"
 menu:
-  workshop:
-    parent: BasicBasic
+  ryouwithme:
+    parent: BasicBasics
     weight: 3
-title: BasicBasic 2
+title: BasicBasics 2
 toc: true
 type: docs
-weight: 1
+weight: 2
 ---
 
 # Installing and loading packages

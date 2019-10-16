@@ -3,13 +3,13 @@ date: "2019-05-05T00:00:00+01:00"
 draft: false
 linktitle: ""
 menu:
-  workshop:
+  ryouwithme:
     parent: CleanItUp
     weight: 3
 title: CleanItUp 2
 toc: true
 type: docs
-weight: 1
+weight: 3
 ---
 
 # Exploring the Rows

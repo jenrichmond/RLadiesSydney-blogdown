@@ -1,15 +1,15 @@
 ---
 date: "2019-05-05T00:00:00+01:00"
 draft: false
-linktitle: ""
+linktitle: "VizWhiz 5"
 menu:
-  workshop:
+  ryouwithme:
     parent: VizWhiz
     weight: 6
 title: VizWhiz 5
 toc: true
 type: docs
-weight: 3
+weight: 4
 ---
 
 This bonus VizW(h)iz lesson is a shout-out to R-Ladies Sydney cofounder Lisa Williams. Back in May, she tweeted:
