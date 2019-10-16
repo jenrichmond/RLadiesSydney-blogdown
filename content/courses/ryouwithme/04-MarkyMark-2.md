@@ -46,4 +46,4 @@ Watch the video and then carry out the following steps:
 
 Sydney-based R-Ladies, head on over to the #ryouwithme_4_markymark channel in Slack to share your code chunk successes (or woes!).
 
-Next up, Lesson 3 tackles export formats!
+Next up, [Lesson 3](../04-MarkyMark-3/) tackles export formats!

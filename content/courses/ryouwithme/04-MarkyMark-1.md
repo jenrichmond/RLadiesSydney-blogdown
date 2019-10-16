@@ -65,11 +65,11 @@ Use similar notation to insert an image...
 
 To embed gifs and tweets, choose "embed" ... 
 
-![](/workshop/04-MarkyMark-1_files/tweet1.png)
+![](/img/tweet1.png)
 
 ... and just copy and paste the code into your R Markdown document. 
 
-![](/workshop/04-MarkyMark-1_files/tweet2.png)
+![](/img/tweet2.png)
 
 
 In this screencast, we’ll cover:
@@ -91,4 +91,4 @@ To learn more about formatting your R Markdown document, check out the [R Markdo
 
 As per usual, Sydney-based R-Ladies are encouraged to share (and vent) on Slack at #ryouwithme_4_markymark!
 
-Next up in MarkyMark, lets talk about chunks. Head on to Lesson 2!
+Next up in MarkyMark, lets talk about chunks. Head on to [Lesson 2](../04-MarkyMark-2/)!
