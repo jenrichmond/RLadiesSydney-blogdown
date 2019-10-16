@@ -14,7 +14,7 @@ weight: 2
 
 # Getting data into RStudio
 
-In this, the third lesson to [Basic Basics](https://rladiessydney.org/courses/workshop/01-basicbasics-0/), we're going to review how to get data into RStudio, using a specially selected data file that we'll continue to use for many of the RYouWithMe lessons.
+In this, the third lesson to [Basic Basics](../01-BasicBasics-0/), we're going to review how to get data into RStudio, using a specially selected data file that we'll continue to use for many of the RYouWithMe lessons.
 
 ## Lesson Outcomes
 By the end of the lesson, you should:
@@ -101,4 +101,4 @@ But what if my data isn't in .csv format?? No problem, there is a package for th
 
 ... but R has tools for working with a very wide range of possible data formats and so there are packages out there for all sorts of things. But we'll leave those for a later date.
 
-That's it for [Basic Basics](/courses/workshop/01-BasicBasics-0/) (at least for now!). We hope you go and explore RStudio more while you wait for the next [RYouWithMe](/courses/workshop/_index/) unit to drop!
+That's it for [Basic Basics](../01-BasicBasics-1/) (at least for now!). We hope you go and explore RStudio more while you wait for the next [RYouWithMe](../) unit to drop!

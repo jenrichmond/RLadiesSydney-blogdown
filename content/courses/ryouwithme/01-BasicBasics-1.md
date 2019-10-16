@@ -14,7 +14,7 @@ weight: 2
 
 # An opinionated tour of RStudio
 
-Welcome to the first lesson of [Basic Basics](https://rladiessydney.org/courses/workshop/01-basicbasics-0/)! Here at R-Ladies Sydney, we're a pretty opinionated bunch. In this lesson, we're going to impart our opinions^[Because these are opinions, you can probably find people who disagree. To each her own and all that!] on navigating RStudio and setting up your workflow. This forms the foundation of all future RYouWithMe lessons - so be sure to follow along carefully!
+Welcome to the first lesson of [Basic Basics](../01-BasicBasics-0/)! Here at R-Ladies Sydney, we're a pretty opinionated bunch. In this lesson, we're going to impart our opinions^[Because these are opinions, you can probably find people who disagree. To each her own and all that!] on navigating RStudio and setting up your workflow. This forms the foundation of all future RYouWithMe lessons - so be sure to follow along carefully!
 
 ## Lesson Outcomes
 By the end of the lesson, you should:
@@ -72,5 +72,5 @@ Locate Preferences (on Mac, this is in the RStudio menu). In the General tab, un
 
 Tada! 
 
-Now onto [Lesson 2: Installing and Loading Packages!](/courses/workshop/01-BasicBasics-2/)
+Now onto [Lesson 2: Installing and Loading Packages!](../01-BasicBasics-2/)
 
