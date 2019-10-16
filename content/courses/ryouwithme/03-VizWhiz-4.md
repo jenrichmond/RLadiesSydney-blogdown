@@ -1,15 +1,15 @@
 ---
 date: "2019-05-05T00:00:00+01:00"
 draft: false
-linktitle: ""
+linktitle: "VizWhiz 4"
 menu:
-  workshop:
+  ryouwithme:
     parent: VizWhiz
     weight: 5
 title: VizWhiz 4
 toc: true
 type: docs
-weight: 3
+weight: 4
 ---
 
 <center>

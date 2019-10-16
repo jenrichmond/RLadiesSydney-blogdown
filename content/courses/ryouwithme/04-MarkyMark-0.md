@@ -1,29 +1,30 @@
 ---
 date: "2019-05-05T00:00:00+01:00"
+aliases: ["/courses/ryouwithme/markymark",
+          "/courses/ryouwithme/unit4"]
 draft: false
-linktitle: ""
-menu:
-  workshop:
-    parent: MarkyMark
-    weight: 1
-title: MarkyMark Overview
+linktitle: MarkyMark
+menu: ryouwithme
+title: "Unit 4: MarkyMark"
 toc: true
 type: docs
-weight: 4
+weight: 5
 ---
 
-# RYouWithMe Unit 4: MarkyMark
+# Overview
 
 ![](/img/markymark-banner.jpg)
 
-Welcome to the fourth unit of [RYouWithMe](/courses/workshop/_index/)! In Unit 4, we’re tackling the one and only R Markdown!
+Welcome to the fourth unit of [RYouWithMe](../)! In Unit 4, we’re tackling the one and only R Markdown!
+
+# Lessons
 
 Unit 4 has four lessons:
 
-1. [Formatting in R Markdown](/courses/workshop/04-MarkyMark-1/)
-2. [Code Chunks in R Markdown](/courses/workshop/04-MarkyMark-2/)
-3. [Exporting from R Markdown](/courses/workshop/04-MarkyMark-3/)
-4. [R Markdown Templates](/courses/workshop/04-MarkyMark-4/)
+1. [Formatting in R Markdown](../04-MarkyMark-1/)
+2. [Code Chunks in R Markdown](../04-MarkyMark-2/)
+3. [Exporting from R Markdown](../04-MarkyMark-3/)
+4. [R Markdown Templates](../04-MarkyMark-4/)
 
 This unit overview wouldn't be complete without a gif of our naming inspo. We think this will be precisely his reaction when he finds out that an #rstats unit is named after him!
 

@@ -1,15 +1,15 @@
 ---
 date: "2019-05-05T00:00:00+01:00"
 draft: false
-linktitle: ""
+linktitle: "MarkyMark 3"
 menu:
-  workshop:
+  ryouwithme:
     parent: MarkyMark
     weight: 4
 title: MarkyMark 3
 toc: true
 type: docs
-weight: 4
+weight: 5
 ---
 
 #  Exporting from R Markdown

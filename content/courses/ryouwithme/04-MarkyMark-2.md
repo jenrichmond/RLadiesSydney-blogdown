@@ -1,15 +1,15 @@
 ---
 date: "2019-05-05T00:00:00+01:00"
 draft: false
-linktitle: ""
+linktitle: "MarkyMark 2"
 menu:
-  workshop:
+  ryouwithme:
     parent: MarkyMark
     weight: 3
 title: MarkyMark 2
 toc: true
 type: docs
-weight: 4
+weight: 5
 ---
 
 #  Code Chunks in R Markdown
@@ -41,7 +41,7 @@ In this screencast, we’ll cover:
 Watch the video and then carry out the following steps:
 
 1. Insert chunks to load the tidyverse package and read in the sydneybeaches data
-2. Insert chunks to recreate your favourite plot from [VizW(h)iz](https://rladiessydney.org/courses/workshop/03-vizwhiz-0/)
+2. Insert chunks to recreate your favourite plot from [VizW(h)iz](../03-vizwhiz-0/)
 3. Knit your document, changing the chunk settings so that only the code and output appear in your document. 
 
 Sydney-based R-Ladies, head on over to the #ryouwithme_4_markymark channel in Slack to share your code chunk successes (or woes!).
