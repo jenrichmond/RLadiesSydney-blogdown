@@ -21,7 +21,7 @@
   
 [[main]]
   name = "RYouWithMe"
-  url = "courses/"
+  url = "courses/ryouwithme/"
   weight = 10
 
 # Link to a PDF of your resume/CV from the menu.
