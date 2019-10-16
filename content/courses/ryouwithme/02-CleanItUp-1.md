@@ -95,7 +95,7 @@ Watch the video and then carry out the following steps:
 
 # Now have a go with **your own data!**
 
-First, read your data in! (Need a refresher? Check out Basic Basics Lesson 3 [here](/courses/workshop/01-BasicBasics-3/). 
+First, read your data in! (Need a refresher? Check out Basic Basics Lesson 3 [here](../01-BasicBasics-3/). 
 
 Take a close look at your variable names.
 
@@ -111,6 +111,6 @@ Take a close look at your variable names.
 **Pipe it all together**
       - Can you use the pipe to string together a series of operations, starting with `read_csv` and finishing with `write_csv`, with a series of piped cleaning operations in the middle?? 
 
-Cleaned up columns? Check! Next up - [exploring what's in those rows](/courses/workshop/02-CleanItUp-2/)!
+Cleaned up columns? Check! Next up - [exploring what's in those rows](../02-CleanItUp-2/)!
 
 

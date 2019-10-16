@@ -86,7 +86,7 @@ In this screencast, we’ll review:
 
 **Sydney-based R-Ladies** - share your successes and any challenges you've faced in the #ryouwithme_2_cleaning Slack channel! 
 
-Next up - Clean It Up [Lesson 3: Making New Variables](/courses/workshop/02-CleanItUp-3/)
+Next up - Clean It Up [Lesson 3: Making New Variables](../02-CleanItUp-3/))
 
 ### P.S. Interested in more `dplyr` tutorials?
 Check out this blog series by R-Lady Suzan Baert! 

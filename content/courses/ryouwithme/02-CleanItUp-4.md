@@ -173,7 +173,7 @@ Here is a link to the [frames data in wide format](https://github.com/jenrichmon
 - download the data and put it in your data folder
 - open a new script
 - load the tidyverse and here packages
-- use `here` and `read_csv` to read the frames data (go back to [Basic Basics](https://rladiessydney.org/courses/workshop/01-basicbasics-0/) if you've forgotten how this works)
+- use `here` and `read_csv` to read the frames data (go back to [Basic Basics](../01-BasicBasics-3/) if you've forgotten how this works)
 - use `gather` to convert the frames data from wide to long
 
 
@@ -189,7 +189,7 @@ Unfortunately though, your work is not done. See how we now have all the ratings
 
 #### Your turn: Challenge 3.2
 
-Go back to [Clean It Up 3](https://rladiessydney.org/courses/workshop/02-cleanitup-3/) and brush up on the `separate` function. 
+Go back to [Clean It Up 3](../02-CleanItUp-3/) and brush up on the `separate` function. 
 
 - use `separate` to create two variables for the sample and item information
 - use `arrange` to make the dataframe look like this 

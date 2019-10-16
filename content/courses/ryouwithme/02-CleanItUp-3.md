@@ -87,7 +87,7 @@ Watch the video and then create a new dataframe called cleanbeaches_new by pipin
 - Use mutate to transform your data, compute a numeric variable, and compute a new logical variable. 
 
 
-Next up - Clean It Up [Lesson 4: Wide to Long](/courses/workshop/02-CleanItUp-4/)
+Next up - Clean It Up [Lesson 4: Wide to Long]((../02-CleanItUp-4/))
 
 **Sydney-based R-Ladies** - share your successes and any challenges you've faced in the #ryouwithme_2_cleaning Slack channel! 
 
