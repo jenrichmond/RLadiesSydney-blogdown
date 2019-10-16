@@ -18,7 +18,11 @@ projects: []
 ---
 
 
-Find links to speaker profiles, slides, and github repositories (where available) here. 
+Find links to speaker profiles, slides, and github repositories (where available) here.
+
+## Gettin Vizzy with it: Tidy Tuesday
+- Presenter: Jenny Sloane
+- Github: https://github.com/rladiessydney/tidytuesdayevent
 
 ## Plot Twist (4 October 2019)
 - Presenter: Alison Hill 
