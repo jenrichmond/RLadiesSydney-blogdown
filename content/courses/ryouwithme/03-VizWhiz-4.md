@@ -131,7 +131,7 @@ __P.P.P.S.__ I don't know how to move the caption! If you work it out, let me kn
 
 Pick your favourite figure from your own work and try to replicate it in R. Don't forget that __EVERYONE googles how to do EVERYTHING__. Also make sure to add `ggsave` to share your plots - on Twitter (use the hashtag #vizwhiz and tag us @RLadiesSydney) or, for Sydney-based R-Ladies, on Slack in the #ryouwithme_3_vizwhiz channel. 
 
-Next up, a bonus lesson - [adding GIFs to plots](https://rladiessydney.netlify.com/courses/workshop/03-vizwhiz-5/)! 
+Next up, a bonus lesson - [adding GIFs to plots](../03-VizWhiz-5/)! 
 
 
 

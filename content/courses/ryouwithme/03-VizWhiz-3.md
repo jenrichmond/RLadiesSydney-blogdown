@@ -12,7 +12,7 @@ type: docs
 weight: 4
 ---
 
-The `ggplot` fanciness we covered in [Lesson 1](https://rladiessydney.netlify.com/courses/workshop/03-vizwhiz-1/) and [Lesson 2](https://rladiessydney.netlify.com/courses/workshop/03-vizwhiz-2/) is great, but sometimes your boss/grant agency/publication outlet insists on a bar or column graph. Or perhaps you simply need to visualise two continuous variables. In this lesson, we will show you how to plot bar and column graphs with error bars and how to plot a scatter plot. 
+The `ggplot` fanciness we covered in [Lesson 1](../03-VizWhiz-1/) and [Lesson 2](../03-VizWhiz-2/) is great, but sometimes your boss/grant agency/publication outlet insists on a bar or column graph. Or perhaps you simply need to visualise two continuous variables. In this lesson, we will show you how to plot bar and column graphs with error bars and how to plot a scatter plot. 
 
 ## Lesson Outcomes
 
@@ -107,4 +107,4 @@ Are bar plots your bread and butter? Or maybe you primarily work with bivariate 
 
 Sydney-based RLadies are encouraged to share your successes, frustrations, and of course your plots, in our slack channel, #ryouwithme_3_vizwhiz. 
 
-Now that you've got the structural components of several of the most popular plots down, it's time to learn how to customise the appearance of those plots! Onward to [Lesson 4](https://rladiessydney.netlify.com/courses/workshop/03-vizwhiz-4/)!
+Now that you've got the structural components of several of the most popular plots down, it's time to learn how to customise the appearance of those plots! Onward to [Lesson 4](../03-VizWhiz-4/!

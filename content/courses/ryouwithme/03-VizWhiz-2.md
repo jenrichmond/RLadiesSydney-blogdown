@@ -114,9 +114,9 @@ Watch the video and then carry out the following steps:
 
 Check out the results of a google image search for 'ggplot violin' [here](https://www.google.com/search?biw=1234&bih=575&tbm=isch&sa=1&ei=D_gSXJvzIc6v9QPxx7JQ&q=ggplot+violin&oq=ggplot+violin&gs_l=img.3..35i39j0l2j0i24l7.8194.9325..9695...0.0..0.474.1983.2-3j2j1......1....1..gws-wiz-img.......0i67j0i8i30j0i10i24.h9bU1bWS70o) to get inspired!
 
-Now, apply that inspiration to your own data! Don't forget `ggsave()` from [VizW(h)iz 1](https://rladiessydney.netlify.com/courses/workshop/03-vizwhiz-1/) so you can show others your fantastic outputs!
+Now, apply that inspiration to your own data! Don't forget `ggsave()` from [VizW(h)iz 1](../03-VizWhiz-1/) so you can show others your fantastic outputs!
 
 As per usual, Sydney-based R-Ladies are encouraged to share (and vent) at #ryouwithme_3_vizwhiz!
 
-Now, we all know there are times when you need (read: are forced) to create boring bar or column plots! That's what Lesson 3 is for! We also cover scatterplots, so all is not for naught! Head on to [Lesson 3](https://rladiessydney.netlify.com/courses/workshop/03-vizwhiz-3/)!
+Now, we all know there are times when you need (read: are forced) to create boring bar or column plots! That's what Lesson 3 is for! We also cover scatterplots, so all is not for naught! Head on to [Lesson 3](../03-VizWhiz-3/)!
 

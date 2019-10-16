@@ -169,13 +169,14 @@ The next step is to plot your own data as raw values.
 
 Steps to plotting your own raw data: 
 
-1. Remember that ggplot only likes "long" data, so if you have observations across several columns, go back to [Clean it up Lesson 4](https://rladiessydney.org/courses/workshop/02-cleanitup-4/) and brush up on how to convert your wide data into long format 
+1. Remember that ggplot only likes "long" data, so if you have observations across several columns, go back to [Clean it up Lesson 4](../02-CleanItUp-4/)
+ and brush up on how to convert your wide data into long format 
 2. Pick a categorical variable for your x axis
 3. Pick a continuous variable for your y axis
 4. Try out `geom_point`, `geom_jitter`, or `geom_quasirandom` and see which one makes the most sense for your data
 5. Export using `ggsave` 
 
-On to [Lesson 2](https://rladiessydney.netlify.com/courses/workshop/03-vizwhiz-2/)
+On to [Lesson 2](../03-VizWhiz-2/)
 
 If you are one of our Sydney-based RLadies, share your success (and /or your frustration!) in our Slack channel #ryouwithme_3_vizwhiz!
 
