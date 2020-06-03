@@ -27,7 +27,7 @@ Our June Show and Tell was another great showcase of all great things Tidyverse.
 
 4. Jen Richmond showed us a few different ways to get data into R (`googlesheets4` and `datapasta`), some ggplot tips for visualising points (`ggbeeswarm` and `ggeasy`) and some RMarkdown magic for getting ggplot exported to png. Check out [her code here](https://rpubs.com/jenrichmond/st_ggplot).
 
-5. Kristy Robledo showed us how to use the `flextable` package to make beautiful tables in RMarkdown that knit REALLY nicely to word. She is writing a blog post so stay tuned for a link to that. 
+5. Kristy Robledo showed us how to use the `flextable` package to make beautiful tables in RMarkdown that knit REALLY nicely to word. She has a [blog post here](https://kristyrobledo.netlify.app/post/beautiful-tables-in-word-using-rmarkdown/) that walks you through how to use this great package!. 
 
 thanks to everyone who shared- it was SUPER fun!
 
