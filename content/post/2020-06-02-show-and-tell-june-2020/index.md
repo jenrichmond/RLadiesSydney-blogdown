@@ -21,7 +21,7 @@ Our June Show and Tell was another great showcase of all great things Tidyverse.
 
 1. John Ormond showed us how he has used `gganimate` to teach students how principal components analysis works. [John's code is available here](https://rpubs.com/jormerod/594859)
 
-2. Jenny Sloane shared a series of tips and tricks for making working in R easier (code to come). 
+2. Jenny Sloane shared a series of tips and tricks for making working in R easier. [Check out Jenny's tips and tricks here](http://rpubs.com/jsloane/623159) 
 
 3. Rachel Mak made a `shiny` app that allows you to zoom in on part of a ggplot (and then showed us how Python actually does it better- code to come)
 
