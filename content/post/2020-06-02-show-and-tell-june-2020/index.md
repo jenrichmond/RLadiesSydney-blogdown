@@ -23,7 +23,7 @@ Our June Show and Tell was another great showcase of all great things Tidyverse.
 
 2. Jenny Sloane shared a series of tips and tricks for making working in R easier. [Check out Jenny's tips and tricks here](http://rpubs.com/jsloane/623159) 
 
-3. Rachel Mak made a `shiny` app that allows you to zoom in on part of a ggplot (and then showed us how Python actually does it better- code to come)
+3. Rachel Mak made a `shiny` app that allows you to zoom in on part of a ggplot (and then showed us how Python actually does it better- code to come). See how to make a [plot zoomable with Shiny](https://rmak.shinyapps.io/zoomPlots/) here. 
 
 4. Jen Richmond showed us a few different ways to get data into R (`googlesheets4` and `datapasta`), some ggplot tips for visualising points (`ggbeeswarm` and `ggeasy`) and some RMarkdown magic for getting ggplot exported to png. Check out [her code here](https://rpubs.com/jenrichmond/st_ggplot).
 
