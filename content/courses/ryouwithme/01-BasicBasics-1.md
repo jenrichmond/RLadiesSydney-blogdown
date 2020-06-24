@@ -38,7 +38,7 @@ For this lesson (and likely the rest of RYouWithMe), we'll be using R v.3.5.1 (2
 In this screencast, we'll review:  
 
   * The overall layout of the default RStudio interface
-  * How to create a project and organise your files
+  * How to create a project and organize your files
   * How to create a script
   * The four main quadrants of the RStudio interface and what you can expect to do in each.
 
