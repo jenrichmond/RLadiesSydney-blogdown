@@ -25,7 +25,7 @@ By the end of the lesson, you should:
 
 ## 3.1 Get some data!
 
-Okay, if we're going to discuss how to import data into R, then the first thing we'll need to do is have a data set! For this lesson we'll make it as painless as possible... click on [this link](https://github.com/rladiessydney/RYouWithMe) to download a copy of the `sydneybeaches.csv` file, and save it to the `data` folder inside your `RYouWithMe` folder.
+Okay, if we're going to discuss how to import data into R, then the first thing we'll need to do is have a data set! For this lesson we'll make it as painless as possible... click on [this link](https://raw.githubusercontent.com/rladiessydney/RYouWithMe/master/sydneybeaches.csv), which will take you to the raw sydneybeaches data on github, then right click and save the data as a .csv file. Put the .csv file in your `data` folder inside your `RYouWithMe` folder.
 
 ## Interlude... the Sydney beaches data
 
