@@ -161,7 +161,7 @@ In this screencast, I walk you through how to use `pivot_longer` to make the wid
 In this one, learn how to use `pivot_wider` to make long beaches data wide. 
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WjtEDIGiSKE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vcy_S1HIG7c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
@@ -201,7 +201,7 @@ Hopefully you ended up with a data frame that looks something like this.
 If not, check out how you can add an extra argument to pivot_longer() and accomplish this pivot in a single step. 
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qnleHeLYqsQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GhVweI0MRUg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Your turn: Try your own data
 
