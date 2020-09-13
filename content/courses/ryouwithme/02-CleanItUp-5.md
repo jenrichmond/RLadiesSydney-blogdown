@@ -5,19 +5,25 @@ linktitle: ""
 menu:
   ryouwithme:
     parent: CleanItUp
-    weight: 5
-title: CleanItUp 4
+    weight: 6
+title: CleanItUp 5
 toc: true
 type: docs
 weight: 3
 ---
 
-# Wide to Long to Wide to...
+# Wide to Long to Wide to...PIVOT
 
 Learning how to make wide data long, or long data wide, might be one of the biggest stumbling blocks that R learners encounter. Even Rlady ed experts like [Jesse Mostipak](https://twitter.com/kierisi) freely admit to not really "getting it". 
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">there&#39;s a pretty large discrepancy between how well I *think* I know spread() and gather() and how well I *actually* know spread() and gather() </p>&mdash; Jesse Mostipak (@kierisi) <a href="https://twitter.com/kierisi/status/1056637253483720704?ref_src=twsrc%5Etfw">October 28, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+But don't panic, there are NEW functions in the `tidyr` that make the process of converting your data from wide to long format and back again, much easier... so much so that, like RLady [Sharla Gelfand](@sharlagelfand), you might even get excited to do it!
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">honestly i used to dread having to reshape my data because it meant relearning spread() and gather() every single time but pivot_wider() and pivot_longer() are so easy to use that now i get excited when i have to do it 🤓</p>&mdash; Sharla Gelfand (@sharlagelfand) <a href="https://twitter.com/sharlagelfand/status/1252656466852548608?ref_src=twsrc%5Etfw">April 21, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ### Why do you need to know how to convert your data from wide to long (or vice versa)?
 
@@ -43,24 +49,22 @@ In contrast, data in long format has all the observations in a single column and
 
 ### Should I could copy and paste_transpose the scores?
 
-No, no, no... this is not as hard as it looks. R employs cute monsters under the hood to `gather` your data from wide to long, and `spread` it from long to wide. All in a single line of code. 
+No, no, no... this is not as hard as it looks. R employs cute monsters under the hood to pivot your data from wide to long `pivot_longer`, or from long to wide `pivot_wider`. All in a single line of code. 
 
-![](/img/3_gather_spread_monsters.jpg)
+![](/img/pivot_monsters.png)
 
 Credit to [Allison Horst](https://twitter.com/Allison_Horst) for the CUTE art. 
 
-In this lesson, we will use three different examples to illustrate how to use `gather` and `spread` to convert your data from wide to long and back to wide. 
+In this lesson, we will use three different examples to illustrate how to use `pivot_longer` and `pivot_wider` to convert your data from wide to long and back to wide. 
 
 1. Great British Bakeoff data from [Alison Hill](https://twitter.com/apreshill)
 2. Some summary data from our own sydneybeaches dataset
-3. A wickedly complex example from a cognition experiment out of [Dani Navarro's](https://twitter.com/djnavarro) lab
+3. A tricky example from a cognition experiment out of [Dani Navarro's](https://twitter.com/djnavarro) lab
 
-Each example is a little different, but in each case we can use `gather` and `spread` to do switch between different formats. We'll walk you through the process step by step, but the basic idea is shown graphically in this lovely animation made by [Garrick Aden-Buie](https://twitter.com/grrrck)
-
-> UPDATE: since RYouWithMe was written there have been a couple of new functions added to tidy R. I think they make this process more intuitive, so if you would rather learn pivot_longer() and pivot_wider(), [use this link](insert link) and skipe to Clean it Up 5. 
+Each example is a little different, but in each case we can use `pivot_longer` and `pivot_wider` to switch between different formats. We'll walk you through the process step by step, but the basic idea is shown graphically in this lovely animation made by [Garrick Aden-Buie](https://twitter.com/grrrck) and adapted by [Mara Averick](@dataandme).
 
 
-![](/img/tidyr-spread-gather.gif)
+![](/img/tidyr-longer-wider.gif)
 
 
 
@@ -70,40 +74,40 @@ Thanks to [Alison Hill](https://twitter.com/apreshill) for sharing this example.
 
 The dataframe on the left is in wide format; the performance of each baker in each spice test is listed across different columns. 
 
-![](/img/4_spices.png)
+![](/img/pivot_longer_data.png)
 Image credit: [Alison Hill](https://twitter.com/apreshill)
 
 
 The dataframe on the right is in long format; all of the accuracy scores are in a single column and information about which baker and spice test each observation came from are represented in separate variables.
 
 
-#### Using `gather` (wide to long)
+#### Using `pivot_longer` (wide to long)
 
-The `gather` function will change your wide data to long format in a single line of code. 
+The `pivot_longer` function will change your wide data to long format in a single line of code. 
 
 You need to tell it ...
 
--  data= dataframe you want to gather
--  key = name of column you want to create to capture condition (i.e. spice)
--  value = name of column you want to contain data values (i.e. correct)
--  column X:column Y = range of columns that you have and want to gather (cinnamon_1:nutmeg_3)
+-  data= dataframe you want to pivot
+-  names_to = name of column you want to create to capture condition (i.e. spice)
+-  values_to = name of column you want to contain data values (i.e. correct)
+-  column X:column Y = range of columns that you have and want to pivot_longer (cinnamon_1:nutmeg_3)
 
-![](/img/5_gather_arguments.png)
+![](/img/longer_arguments.png)
 Image credit: [Alison Hill](https://twitter.com/apreshill)
 
 
 
-#### Using `spread` (long to wide)
+#### Using `pivot_wider` (long to wide)
 
-The `spread` function will change your long data to wide format in a single line of code. 
+The `pivot_wider` function will change your long data to wide format in a single line of code. 
 
 You need to tell it ...
 
--  data = dataframe you want to spread
--  key = name of column you want to spread across several columns 
--  value = name of column that currently contains data values
+-  data = dataframe you want to pivot
+-  names_from = name of column you want to end up in several columns 
+-  values_from = name of column that currently contains data values
 
-![](/img/6_spread_arguments.png)
+![](/img/wider_arguments.png)
 Image credit: [Alison Hill](https://twitter.com/apreshill)
 
 
@@ -112,11 +116,11 @@ Image credit: [Alison Hill](https://twitter.com/apreshill)
 
 Here is a link to the [bakers data in wide format](https://github.com/jenrichmond/RLadiesSydney-blogdown/blob/master/csv/bakers_wide.csv).
 
-- download the data and put it in your data folder
+- download the [data]((https://github.com/jenrichmond/RLadiesSydney-blogdown/blob/master/csv/bakers_wide.csv)) and put it in your data folder
 - open a new script
 - load the tidyverse and here packages
 - use `here` and `read_csv` to read the bakers data (go back to Basic Basics if you've forgotten how this works)
-- use `gather` to convert the bakers data from wide to long, replicating Alison's steps above. 
+- use `pivot_longer` to convert the bakers data from wide to long, replicating Alison's steps above. 
 
 
 
@@ -142,20 +146,28 @@ In long format, the bug levels from each site are all in a single column and yea
 #### Your turn: Challenge 2
 Here is a link to the [beaches summary in wide format](https://github.com/jenrichmond/RLadiesSydney-blogdown/blob/master/csv/beachbugs_wide.csv)
 
-- download the data and put it in your data folder
+- download the [data]((https://github.com/jenrichmond/RLadiesSydney-blogdown/blob/master/csv/beachbugs_wide.csv)) and put it in your data folder
 - open a new script
 - load library tidyverse 
 - use `here` and `read_csv` to read the beaches data (go back to Basic Basics if you've forgotten how this works)
-- use `gather` to convert the beaches data from wide to long
+- use `pivot_longer` to convert the beaches data from wide to long
 
-In this screencast, I walk you through how to use `gather` and `spread` using the sydneybeaches data. 
+In this screencast, I walk you through how to use `pivot_longer` to make the wide beaches data long.  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Pkdr5vFHhaU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vu_ePf3sA1E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+In this one, learn how to use `pivot_wider` to make long beaches data wide. 
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WjtEDIGiSKE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 ### Example 3: A tricky one
 
-The bakers data and beaches data are relatively simple. What happens if there is more that one condition that you are trying to gather across? 
+The bakers data and beaches data are relatively simple. What happens if there is more that one condition that you are trying to pivot across? 
 
 This sampling frames dataset comes from an experiment from [Dani Navarro's](https://twitter.com/djnavarro) lab. In this study, each participant made reasoning judgements about items either based on a category or property (condition). They made repeated judgements after being given a small, medium, and large "samples" of information. For each of these sampling conditions, there were 7 different items that participants made a judgement about.  
 
@@ -172,39 +184,32 @@ Each row contains all of the data from a single participant and the column repre
 
 Here is a link to the [frames data in wide format](https://github.com/jenrichmond/RLadiesSydney-blogdown/blob/master/csv/frames_wide.csv).
 
-- download the data and put it in your data folder
+- download the [data](https://github.com/jenrichmond/RLadiesSydney-blogdown/blob/master/csv/frames_wide.csv) and put it in your data folder
 - open a new script
 - load the tidyverse and here packages
 - use `here` and `read_csv` to read the frames data (go back to [Basic Basics](../01-BasicBasics-3/) if you've forgotten how this works)
-- use `gather` to convert the frames data from wide to long
+- use `pivot_longer` to convert the frames data from wide to long
 
 
 ### How did you go?
 
 Hopefully you ended up with a data frame that looks something like this.
 
-![](/img/frameslong_step1.png)
+![](/img/frames_final.png)
 
 
+If not, check out how you can add an extra argument to pivot_longer() and accomplish this pivot in a single step. 
 
-Unfortunately though, your work is not done. See how we now have all the ratings in a single column called response, but the "key" column that you created contains information about both the sampling frame AND the item. For the data to be truly tidy, we need that information split into two separate variables. 
 
-#### Your turn: Challenge 3.2
-
-Go back to [Clean It Up 3](../02-CleanItUp-3/) and brush up on the `separate` function. 
-
-- use `separate` to create two variables for the sample and item information
-- use `arrange` to make the dataframe look like this 
-
-![](/img/separate_arrange.png)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qnleHeLYqsQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Your turn: Try your own data
 
 Is your data in wide format? No problem. Sort out answers to the following questions and you can convert it to long format with a single line of code. 
 
-1. What should your "key" column be called? 
+1. What do you want your "names" column to be called? 
 2. What are the "values"?
-3. Which columns do you want to gather? 
+3. Which columns do you want to pivot? 
 
 **Sydney-based R-Ladies** - share your successes and any challenges you've faced in the #ryouwithme_2_cleaning Slack channel! 
 
@@ -214,8 +219,7 @@ Is your data in wide format? No problem. Sort out answers to the following quest
 
 Some additional links that might be helpful!
 
-- https://github.com/gadenbuie/tidyexplain#tidy-data
-- http://garrettgman.github.io/tidying/
-- https://blog.rstudio.com/2014/07/22/introducing-tidyr/
-- https://robchavez.github.io/datascience_gallery/html_only/data_wrangling.html
-
+- [What is tidy data?](https://github.com/gadenbuie/tidyexplain#tidy-data)
+- [Pivoting tidily](https://fromthebottomoftheheap.net/2019/10/25/pivoting-tidily/)
+- [TidyR docs](https://tidyr.tidyverse.org/)
+- [TidyTuesday pivot examples](https://thatdatatho.com/2020/03/28/tidyrs-pivot_longer-and-pivot_wider-examples-tidytuesday-challenge/) 
