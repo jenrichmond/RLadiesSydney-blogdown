@@ -12,6 +12,8 @@ type: docs
 weight: 3
 ---
 
+> NOTE: This lesson has been updated and we now recommend learning the `pivot_longer()` and `pivot_wider()` functions, rather than `gather()` and `spread()`. If you are keen to skip the angst of `gather()` and `spread()` [use this link](https://rladiessydney.org/courses/ryouwithme/02-cleanitup-5/) and SKIP straight to Clean it Up 5. 
+
 # Wide to Long to Wide to...
 
 Learning how to make wide data long, or long data wide, might be one of the biggest stumbling blocks that R learners encounter. Even Rlady ed experts like [Jesse Mostipak](https://twitter.com/kierisi) freely admit to not really "getting it". 
@@ -55,9 +57,7 @@ In this lesson, we will use three different examples to illustrate how to use `g
 2. Some summary data from our own sydneybeaches dataset
 3. A wickedly complex example from a cognition experiment out of [Dani Navarro's](https://twitter.com/djnavarro) lab
 
-Each example is a little different, but in each case we can use `gather` and `spread` to do switch between different formats. We'll walk you through the process step by step, but the basic idea is shown graphically in this lovely animation made by [Garrick Aden-Buie](https://twitter.com/grrrck)
-
-> UPDATE: since RYouWithMe was written there have been a couple of new functions added to tidy R. I think they make this process more intuitive, so if you would rather learn pivot_longer() and pivot_wider(), [use this link](insert link) and skipe to Clean it Up 5. 
+Each example is a little different, but in each case we can use `gather` and `spread` to do switch between different formats. We'll walk you through the process step by step, but the basic idea is shown graphically in this lovely animation made by [Garrick Aden-Buie](https://twitter.com/grrrck). 
 
 
 ![](/img/tidyr-spread-gather.gif)
