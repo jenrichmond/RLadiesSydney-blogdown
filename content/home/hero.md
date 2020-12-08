@@ -8,7 +8,7 @@ weight = 10  # Order that this section will appear.
 title = "Welcome to the \n R-Ladies Sydney website!"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
-hero_media = "rladieslogo.png"
+hero_media = "purple_sails.png"
 
 [design.background]
   # Apply a background color, gradient, or image.
