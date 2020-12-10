@@ -45,7 +45,7 @@ hero_media = "purple_sails.png"
 
 # Note. An optional note to show underneath the links.
 [cta_note]
-  label = ''
+  label = 'The image of the Sydney Opera House sails by [Alex Proimos](https://www.flickr.com/people/34120957@N04) is licensed under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/deed.en)'
 +++
 
 This site provides a resource for the Sydney chapter so that anyone giving a talk, presenting a tutorial, or just wanting to share something awesome can contribute. It's also where we archive information about our past [events](./events/) and links to the associated resources. The goal in putting this together is for everyone in the Sydney R-Ladies community to support each other, and to allow all members (whether they can make it to meetups or not) to feel part of and get something from the group. You can find out more about us - and how to contact us - on the [about](https://rladiessydney.netlify.com/authors/admin/) page, check out upcoming meetings on the [meetup](https://www.meetup.com/en-AU/rladies-sydney/) page, or browse the occasional blog [post](./post/) written by the Sydney R-Ladies. Best of all, you can follow us on [twitter](https://twitter.com/RLadiesSydney)!
