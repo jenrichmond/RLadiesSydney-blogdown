@@ -49,9 +49,9 @@ Watch the video and then carry out the following steps:
 
 ## Question B: Does Coogee or Bondi have more extreme bacteria levels? Which beach has the worst bacteria levels on average?
 
-"Where should I swim?"" you might ask… Well, to answer that question we need to compare bacteria levels across sites. 
+"Where should I swim?" you might ask… Well, to answer that question we need to compare bacteria levels across sites. 
 
-To do this, ou can put more than one argument into a filter function. For example, you can filter for either Coogee or Bondi. 
+To do this, uou can put more than one argument into a filter function. For example, you can filter for either Coogee or Bondi. 
 
 In this screencast, we’ll review:
 

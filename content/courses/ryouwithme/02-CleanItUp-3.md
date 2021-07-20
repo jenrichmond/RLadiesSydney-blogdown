@@ -44,7 +44,7 @@ Watch the video and then carry out the following steps:
 
 ## 3.2 Use `mutate` to compute new variables
 
-Sometimes the data you are most interested are not in your dataframe yet, you need to computer them. The `mutate` function allows you to compute a new variable and add it to your dataframe. 
+Sometimes the data you are most interested are not in your dataframe yet, you need to compute them. The `mutate` function allows you to compute a new variable and add it to your dataframe. 
 
 In this screencast, we’ll review:
 
