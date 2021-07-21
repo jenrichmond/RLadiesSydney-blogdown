@@ -61,7 +61,7 @@ In this lesson, we will use three different examples to illustrate how to use `p
 2. Some summary data from our own sydneybeaches dataset
 3. A tricky example from a cognition experiment out of [Dani Navarro's](https://twitter.com/djnavarro) lab
 
-Each example is a little different, but in each case we can use `pivot_longer` and `pivot_wider` to switch between different formats. We'll walk you through the process step by step, but the basic idea is shown graphically in this lovely animation made by [Garrick Aden-Buie](https://twitter.com/grrrck) and adapted by [Mara Averick](@dataandme).
+Each example is a little different, but in each case we can use `pivot_longer` and `pivot_wider` to switch between different formats. We'll walk you through the process step by step, but the basic idea is shown graphically in this lovely animation made by [Garrick Aden-Buie](https://twitter.com/grrrck) and adapted by [Mara Averick](https://twitter.com/dataandme).
 
 
 ![](/img/tidyr-longer-wider.gif)
