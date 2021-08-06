@@ -116,7 +116,7 @@ Image credit: [Alison Hill](https://twitter.com/apreshill)
 
 Here is a link to the [bakers data in wide format](https://github.com/jenrichmond/RLadiesSydney-blogdown/blob/master/csv/bakers_wide.csv).
 
-- download the [data]((https://github.com/jenrichmond/RLadiesSydney-blogdown/blob/master/csv/bakers_wide.csv)) and put it in your data folder
+- download the [data](https://github.com/jenrichmond/RLadiesSydney-blogdown/blob/master/csv/bakers_wide.csv) and put it in your data folder
 - open a new script
 - load the tidyverse and here packages
 - use `here` and `read_csv` to read the bakers data (go back to Basic Basics if you've forgotten how this works)
