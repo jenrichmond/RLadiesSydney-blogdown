@@ -57,9 +57,9 @@ In this lesson, we will use three different examples to illustrate how to use `g
 2. Some summary data from our own sydneybeaches dataset
 3. A wickedly complex example from a cognition experiment out of [Dani Navarro's](https://twitter.com/djnavarro) lab
 
-# STOP THE PRESS 
+### STOP THE PRESS 
 
-> #RYouWithMe now has a data package! Check out https://ryouwithme.netlify.app/ for details about how to install and use the package to read the bakers, beach summary and frames data using the package. 
+> #RYouWithMe now has a data package! Check out https://ryouwithme.netlify.app/ for details about how to install and use the package to read the bakers, beach summary and frames data. 
 
 Each example is a little different, but in each case we can use `gather` and `spread` to do switch between different formats. We'll walk you through the process step by step, but the basic idea is shown graphically in this lovely animation made by [Garrick Aden-Buie](https://twitter.com/grrrck). 
 
