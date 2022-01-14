@@ -102,3 +102,9 @@ But what if my data isn't in .csv format?? No problem, there is a package for th
 ... but R has tools for working with a very wide range of possible data formats and so there are packages out there for all sorts of things. But we'll leave those for a later date.
 
 That's it for [Basic Basics](../01-BasicBasics-1/) (at least for now!). We hope you go and explore RStudio more while you wait for the next [RYouWithMe](../) unit to drop!
+
+# STOP THE PRESS 
+
+> #RYouWithMe now has a data package! Check out https://ryouwithme.netlify.app/ for details about how to install and use the package to read the sydneybeaches data using the package. 
+
+

@@ -79,6 +79,10 @@ Sometimes you want to visualise the relationship between two continuous variable
 
 You can download the rain_temp_beachbugs.csv data [here](https://github.com/jenrichmond/RLadiesSydney-blogdown/blob/master/csv/rain_temp_beachbugs.csv) 
 
+# STOP THE PRESS 
+
+> #RYouWithMe now has a data package! Check out https://ryouwithme.netlify.app/ for details about how to install and use the package to read the bakers, beach summary and frames data using the package. 
+
 In this screencast, we’ll review:
 
   * How to import the rain_temp_beachbugs.csv dataset into R
