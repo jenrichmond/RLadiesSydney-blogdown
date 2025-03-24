@@ -1,5 +1,7 @@
 # RLadies Sydney blogdown site
 
+This is an OLD hugo academic theme version of the RLadies Sydney website. 
 
-<!-- Markdown snippet -->
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ysc2019-workshop/04-blogdown)
+New quarto version now at 
+
+https://github.com/rladiessydney/RLadiesSydney_website
